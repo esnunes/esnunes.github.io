@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Eduardo Nunes</title>
+    <link>http://nunes.io/categories/golang/</link>
+    <description>Recent content in Golang on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 22 Feb 2016 18:14:00 -0300</lastBuildDate>
+    <atom:link href="http://nunes.io/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Is Go an Object Oriented Language?</title>
+      <link>http://nunes.io/notes/article/is-go-an-object-oriented-language/</link>
+      <pubDate>Mon, 22 Feb 2016 18:14:00 -0300</pubDate>
+      
+      <guid>http://nunes.io/notes/article/is-go-an-object-oriented-language/</guid>
+      <description>&lt;p&gt;This article was written by Steve Francia, the author of
+&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. Hugo is an amazing static website engine written in
+&lt;a href=&#34;https://golang.org/&#34; target=&#34;_blank&#34;&gt;Go&lt;/a&gt;. As I&amp;rsquo;m in the process of learning go I decided to
+look at Steve&amp;rsquo;s blog posts trying to find more information about both Hugo and
+Go.&lt;/p&gt;
+
+&lt;p&gt;The article tries to list what makes a programming language support OOP design.
+It points out a brief information about OOP concepts like:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inheritance And Polymorphism;&lt;/li&gt;
+&lt;li&gt;Single &amp;amp; Multiple Inheritance;&lt;/li&gt;
+&lt;li&gt;Subtyping (Polymorphism);&lt;/li&gt;
+&lt;li&gt;Object Composition&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The article describes how and which of those concepts Go supports.&lt;/p&gt;
+
+&lt;p&gt;Steve, as most part of &lt;em&gt;modern&lt;/em&gt; software development communities, considers
+Inheritance as a bad practice. In order to fundament his opinion Steve quotes
+James Gosling (Java&amp;rsquo;s inventor) and mentions that GoF book discusses at length
+replacing implementation (extends) with interface inheritance (implements).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

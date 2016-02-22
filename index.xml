@@ -6,8 +6,39 @@
     <description>Recent content on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Feb 2016 18:14:00 -0300</lastBuildDate>
     <atom:link href="http://nunes.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Is Go an Object Oriented Language?</title>
+      <link>http://nunes.io/notes/article/is-go-an-object-oriented-language/</link>
+      <pubDate>Mon, 22 Feb 2016 18:14:00 -0300</pubDate>
+      
+      <guid>http://nunes.io/notes/article/is-go-an-object-oriented-language/</guid>
+      <description>&lt;p&gt;This article was written by Steve Francia, the author of
+&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. Hugo is an amazing static website engine written in
+&lt;a href=&#34;https://golang.org/&#34; target=&#34;_blank&#34;&gt;Go&lt;/a&gt;. As I&amp;rsquo;m in the process of learning go I decided to
+look at Steve&amp;rsquo;s blog posts trying to find more information about both Hugo and
+Go.&lt;/p&gt;
+
+&lt;p&gt;The article tries to list what makes a programming language support OOP design.
+It points out a brief information about OOP concepts like:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inheritance And Polymorphism;&lt;/li&gt;
+&lt;li&gt;Single &amp;amp; Multiple Inheritance;&lt;/li&gt;
+&lt;li&gt;Subtyping (Polymorphism);&lt;/li&gt;
+&lt;li&gt;Object Composition&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The article describes how and which of those concepts Go supports.&lt;/p&gt;
+
+&lt;p&gt;Steve, as most part of &lt;em&gt;modern&lt;/em&gt; software development communities, considers
+Inheritance as a bad practice. In order to fundament his opinion Steve quotes
+James Gosling (Java&amp;rsquo;s inventor) and mentions that GoF book discusses at length
+replacing implementation (extends) with interface inheritance (implements).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Boot clj: Examples</title>
@@ -258,21 +289,6 @@ After some searches on google I found out this video &lt;a href=&#34;http://www.
       
       <guid>http://nunes.io/notes/guide/om-next-tutorial/</guid>
       <description>&lt;p&gt;Seems to be a good Om (next) tutorial. As soon as I read it I will update this doc.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Webpack: How to dynamically set publich path</title>
-      <link>http://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</link>
-      <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</guid>
-      <description>&lt;p&gt;The &lt;code&gt;publicPath&lt;/code&gt; of the output entry in webpack config file can be left blank and be dynamically set in the entry point file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;__webpack_public_path__ = myRuntimePublicPath
-
-// ... rest of your application entry
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
