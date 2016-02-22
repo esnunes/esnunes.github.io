@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CQRS on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/cqrs/</link>
+    <link>http://nunes.io/categories/cqrs/</link>
     <description>Recent content in CQRS on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 29 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/cqrs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/cqrs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Greg Young - CQRS and Event Sourcing - Code on the Beach 2014</title>
-      <link>https://nunes.io/notes/talk/cqrs-and-event-sourcing/</link>
+      <link>http://nunes.io/notes/talk/cqrs-and-event-sourcing/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/talk/cqrs-and-event-sourcing/</guid>
+      <guid>http://nunes.io/notes/talk/cqrs-and-event-sourcing/</guid>
       <description>&lt;p&gt;Very nice talk about event sourcing and how it is related to CQRS pattern.&lt;/p&gt;
 
 &lt;p&gt;The whole idea of storing events for future playback is awesome. You can&amp;rsquo;t get

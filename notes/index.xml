@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Eduardo Nunes</title>
-    <link>https://nunes.io/notes/</link>
+    <link>http://nunes.io/notes/</link>
     <description>Recent content in Notes on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 21 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Boot clj: Examples</title>
-      <link>https://nunes.io/notes/guide/boot-clj-examples/</link>
+      <link>http://nunes.io/notes/guide/boot-clj-examples/</link>
       <pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/boot-clj-examples/</guid>
+      <guid>http://nunes.io/notes/guide/boot-clj-examples/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/leblowl/lokate/blob/master/build.boot&#34; target=&#34;_blank&#34;&gt;https://github.com/leblowl/lokate/blob/master/build.boot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -23,10 +23,10 @@
     
     <item>
       <title>Boot clj: Install Instructions</title>
-      <link>https://nunes.io/notes/guide/boot-clj-install-instructions/</link>
+      <link>http://nunes.io/notes/guide/boot-clj-install-instructions/</link>
       <pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/boot-clj-install-instructions/</guid>
+      <guid>http://nunes.io/notes/guide/boot-clj-install-instructions/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# update brew to install latest install script
 brew update; brew install boot-clj
 # run any boot command to force install
@@ -39,10 +39,10 @@ boot -h
     
     <item>
       <title>MongoDB: Backup and Restore</title>
-      <link>https://nunes.io/notes/guide/mongodb-backup-and-restore/</link>
+      <link>http://nunes.io/notes/guide/mongodb-backup-and-restore/</link>
       <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/mongodb-backup-and-restore/</guid>
+      <guid>http://nunes.io/notes/guide/mongodb-backup-and-restore/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# backup a specific database
 mongodump --host 192.168.1.2 --port 27017 --db database_name --username mongodevdb --password YourSecretPwd
 # the backup will generated in the current folder + dump
@@ -56,10 +56,10 @@ mongorestore --host 192.168.1.2 --port 27017 --db database_name --username mongo
     
     <item>
       <title>Docker: How to set docker0 ip address</title>
-      <link>https://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</link>
+      <link>http://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</link>
       <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</guid>
+      <guid>http://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;DOCKER_OPTS=&amp;quot;--bip=172.17.42.1/16&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
@@ -67,10 +67,10 @@ mongorestore --host 192.168.1.2 --port 27017 --db database_name --username mongo
     
     <item>
       <title>Docker: Saving memory and CPU</title>
-      <link>https://nunes.io/notes/guide/docker-saving-memory-and-cpu/</link>
+      <link>http://nunes.io/notes/guide/docker-saving-memory-and-cpu/</link>
       <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/docker-saving-memory-and-cpu/</guid>
+      <guid>http://nunes.io/notes/guide/docker-saving-memory-and-cpu/</guid>
       <description>&lt;p&gt;Docker spawns a &lt;code&gt;docker-proxy&lt;/code&gt; application whenever you run a docker container.
 The application is responsible to proxy ports between the host machine and
 the container. I&amp;rsquo;m not sure when but newer versions of Linux Kernel support
@@ -86,10 +86,10 @@ a special network flag that makes &lt;code&gt;docker-proxy&lt;/code&gt; obsolete
     
     <item>
       <title>Emacs: How to install on Mac OS X</title>
-      <link>https://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</link>
+      <link>http://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</link>
       <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</guid>
+      <guid>http://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;brew install emacs --with-cocoa --srgb
 &lt;/code&gt;&lt;/pre&gt;
 </description>
@@ -97,10 +97,10 @@ a special network flag that makes &lt;code&gt;docker-proxy&lt;/code&gt; obsolete
     
     <item>
       <title>Emacs: Keyboard shortcuts</title>
-      <link>https://nunes.io/notes/guide/emacs-keyboard-shortcuts/</link>
+      <link>http://nunes.io/notes/guide/emacs-keyboard-shortcuts/</link>
       <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/emacs-keyboard-shortcuts/</guid>
+      <guid>http://nunes.io/notes/guide/emacs-keyboard-shortcuts/</guid>
       <description>
 
 &lt;ul&gt;
@@ -133,10 +133,10 @@ a special network flag that makes &lt;code&gt;docker-proxy&lt;/code&gt; obsolete
     
     <item>
       <title>Enabling Microservices with Domain Driven Design and Ports &amp; Adapters</title>
-      <link>https://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</link>
+      <link>http://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</guid>
+      <guid>http://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</guid>
       <description>&lt;p&gt;This is a very interesting video that demonstrates the power of using DDD
 together with Ports &amp;amp; Adapters pattern. I totally agree with the concept.
 By using Ports &amp;amp; Adapters you can easily understand the business logic without
@@ -151,10 +151,10 @@ things he speaks of.&lt;/p&gt;
     
     <item>
       <title>The Last Programming Language (Future of Programming Language)</title>
-      <link>https://nunes.io/notes/talk/the-last-programming-language/</link>
+      <link>http://nunes.io/notes/talk/the-last-programming-language/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/talk/the-last-programming-language/</guid>
+      <guid>http://nunes.io/notes/talk/the-last-programming-language/</guid>
       <description>&lt;p&gt;Just amazing, Robert Martin (Uncle Bob) points out how the history of computer
 science affects the way we develop code nowadays and the reason why lots of
 amazing things were invented in the beginning and today we have the lack of it.&lt;/p&gt;
@@ -173,10 +173,10 @@ something wrong, even if they got asked to do it.&lt;/p&gt;
     
     <item>
       <title>Greg Young - CQRS and Event Sourcing - Code on the Beach 2014</title>
-      <link>https://nunes.io/notes/talk/cqrs-and-event-sourcing/</link>
+      <link>http://nunes.io/notes/talk/cqrs-and-event-sourcing/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/talk/cqrs-and-event-sourcing/</guid>
+      <guid>http://nunes.io/notes/talk/cqrs-and-event-sourcing/</guid>
       <description>&lt;p&gt;Very nice talk about event sourcing and how it is related to CQRS pattern.&lt;/p&gt;
 
 &lt;p&gt;The whole idea of storing events for future playback is awesome. You can&amp;rsquo;t get
@@ -196,10 +196,10 @@ After some searches on google I found out this video &lt;a href=&#34;http://www.
     
     <item>
       <title>Experience API</title>
-      <link>https://nunes.io/notes/overview/experience-api/</link>
+      <link>http://nunes.io/notes/overview/experience-api/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/overview/experience-api/</guid>
+      <guid>http://nunes.io/notes/overview/experience-api/</guid>
       <description>
 
 &lt;p&gt;Experience API is also known as &lt;a href=&#34;https://tincanapi.com/overview/tin-can-xapi&#34; target=&#34;_blank&#34;&gt;Tin Can API or xAPI&lt;/a&gt;.&lt;/p&gt;
@@ -227,10 +227,10 @@ After some searches on google I found out this video &lt;a href=&#34;http://www.
     
     <item>
       <title>Generative Testing</title>
-      <link>https://nunes.io/notes/overview/generative-testing/</link>
+      <link>http://nunes.io/notes/overview/generative-testing/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/overview/generative-testing/</guid>
+      <guid>http://nunes.io/notes/overview/generative-testing/</guid>
       <description>
 
 &lt;h2 id=&#34;reference-material&#34;&gt;Reference material&lt;/h2&gt;
@@ -243,30 +243,30 @@ After some searches on google I found out this video &lt;a href=&#34;http://www.
     
     <item>
       <title>Foam</title>
-      <link>https://nunes.io/notes/library/foam/</link>
+      <link>http://nunes.io/notes/library/foam/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/library/foam/</guid>
+      <guid>http://nunes.io/notes/library/foam/</guid>
       <description>&lt;p&gt;Foam is a hack to add server-side rendering to Om. I still have to test it before give my opinion but it seems to be nice.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Om (next) Tutorial Code</title>
-      <link>https://nunes.io/notes/guide/om-next-tutorial/</link>
+      <link>http://nunes.io/notes/guide/om-next-tutorial/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/om-next-tutorial/</guid>
+      <guid>http://nunes.io/notes/guide/om-next-tutorial/</guid>
       <description>&lt;p&gt;Seems to be a good Om (next) tutorial. As soon as I read it I will update this doc.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Webpack: How to dynamically set publich path</title>
-      <link>https://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</link>
+      <link>http://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</link>
       <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</guid>
+      <guid>http://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</guid>
       <description>&lt;p&gt;The &lt;code&gt;publicPath&lt;/code&gt; of the output entry in webpack config file can be left blank and be dynamically set in the entry point file.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;__webpack_public_path__ = myRuntimePublicPath

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webpack on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/webpack/</link>
+    <link>http://nunes.io/categories/webpack/</link>
     <description>Recent content in Webpack on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 05 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/webpack/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/webpack/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Webpack: How to dynamically set publich path</title>
-      <link>https://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</link>
+      <link>http://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</link>
       <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</guid>
+      <guid>http://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</guid>
       <description>&lt;p&gt;The &lt;code&gt;publicPath&lt;/code&gt; of the output entry in webpack config file can be left blank and be dynamically set in the entry point file.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;__webpack_public_path__ = myRuntimePublicPath
@@ -26,10 +26,10 @@
     
     <item>
       <title>Extract Text webpack Plugin</title>
-      <link>https://nunes.io/notes/library/extract-text-webpack-plugin/</link>
+      <link>http://nunes.io/notes/library/extract-text-webpack-plugin/</link>
       <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/library/extract-text-webpack-plugin/</guid>
+      <guid>http://nunes.io/notes/library/extract-text-webpack-plugin/</guid>
       <description>&lt;p&gt;This webpack plugin groups loaders in order to store all generated content from them inside one file.&lt;/p&gt;
 
 &lt;p&gt;One key benefit of it is to group all &lt;code&gt;css&lt;/code&gt;, &lt;code&gt;sass&lt;/code&gt;, &lt;code&gt;less&lt;/code&gt; generated inside one &lt;code&gt;bundle.css&lt;/code&gt; file. By doing this you no longer have to wait the whole &lt;code&gt;js&lt;/code&gt; file load to see the html stylized.&lt;/p&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>Webpack sass where is the css file</title>
-      <link>https://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</link>
+      <link>http://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</link>
       <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</guid>
+      <guid>http://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</guid>
       <description>&lt;p&gt;This StackOverflow question provides instructions of how to pack &lt;code&gt;Sass&lt;/code&gt; files.&lt;/p&gt;
 
 &lt;p&gt;At first sight when I tried to create a css bundle with Sass and CSS files I tried to use ExtractTextPlugin listing all loaders, see below:&lt;/p&gt;

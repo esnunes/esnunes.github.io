@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Generative Testing on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/generative-testing/</link>
+    <link>http://nunes.io/categories/generative-testing/</link>
     <description>Recent content in Generative Testing on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 15 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/generative-testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/generative-testing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Generative Testing</title>
-      <link>https://nunes.io/notes/overview/generative-testing/</link>
+      <link>http://nunes.io/notes/overview/generative-testing/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/overview/generative-testing/</guid>
+      <guid>http://nunes.io/notes/overview/generative-testing/</guid>
       <description>
 
 &lt;h2 id=&#34;reference-material&#34;&gt;Reference material&lt;/h2&gt;

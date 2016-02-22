@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sass on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/sass/</link>
+    <link>http://nunes.io/categories/sass/</link>
     <description>Recent content in Sass on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 03 Dec 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/sass/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/sass/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Webpack sass where is the css file</title>
-      <link>https://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</link>
+      <link>http://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</link>
       <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</guid>
+      <guid>http://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</guid>
       <description>&lt;p&gt;This StackOverflow question provides instructions of how to pack &lt;code&gt;Sass&lt;/code&gt; files.&lt;/p&gt;
 
 &lt;p&gt;At first sight when I tried to create a css bundle with Sass and CSS files I tried to use ExtractTextPlugin listing all loaders, see below:&lt;/p&gt;

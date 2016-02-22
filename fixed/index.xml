@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fixed on Eduardo Nunes</title>
-    <link>https://nunes.io/fixed/</link>
+    <link>http://nunes.io/fixed/</link>
     <description>Recent content in Fixed on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <atom:link href="https://nunes.io/fixed/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/fixed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>https://nunes.io/about/</link>
+      <link>http://nunes.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/about/</guid>
+      <guid>http://nunes.io/about/</guid>
       <description>
 
 &lt;p&gt;Hi! I&amp;rsquo;m Eduardo Nunes!&lt;/p&gt;

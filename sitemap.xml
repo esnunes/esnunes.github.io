@@ -2,148 +2,148 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nunes.io/</loc>
+    <loc>http://nunes.io/</loc>
     <lastmod>2016-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/boot-clj-examples/</loc>
+    <loc>http://nunes.io/notes/guide/boot-clj-examples/</loc>
     <lastmod>2016-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/boot-clj-install-instructions/</loc>
+    <loc>http://nunes.io/notes/guide/boot-clj-install-instructions/</loc>
     <lastmod>2016-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/mongodb-backup-and-restore/</loc>
+    <loc>http://nunes.io/notes/guide/mongodb-backup-and-restore/</loc>
     <lastmod>2016-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</loc>
+    <loc>http://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</loc>
     <lastmod>2016-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/docker-saving-memory-and-cpu/</loc>
+    <loc>http://nunes.io/notes/guide/docker-saving-memory-and-cpu/</loc>
     <lastmod>2016-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</loc>
+    <loc>http://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</loc>
     <lastmod>2016-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/emacs-keyboard-shortcuts/</loc>
+    <loc>http://nunes.io/notes/guide/emacs-keyboard-shortcuts/</loc>
     <lastmod>2016-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</loc>
+    <loc>http://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</loc>
     <lastmod>2016-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/talk/the-last-programming-language/</loc>
+    <loc>http://nunes.io/notes/talk/the-last-programming-language/</loc>
     <lastmod>2016-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/talk/cqrs-and-event-sourcing/</loc>
+    <loc>http://nunes.io/notes/talk/cqrs-and-event-sourcing/</loc>
     <lastmod>2016-01-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/overview/experience-api/</loc>
+    <loc>http://nunes.io/notes/overview/experience-api/</loc>
     <lastmod>2016-01-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/overview/generative-testing/</loc>
+    <loc>http://nunes.io/notes/overview/generative-testing/</loc>
     <lastmod>2016-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/library/foam/</loc>
+    <loc>http://nunes.io/notes/library/foam/</loc>
     <lastmod>2016-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/om-next-tutorial/</loc>
+    <loc>http://nunes.io/notes/guide/om-next-tutorial/</loc>
     <lastmod>2016-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</loc>
+    <loc>http://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</loc>
     <lastmod>2016-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/clojure-destructuring/</loc>
+    <loc>http://nunes.io/notes/guide/clojure-destructuring/</loc>
     <lastmod>2016-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/clojure-difference-between-for-and-doseq/</loc>
+    <loc>http://nunes.io/notes/guide/clojure-difference-between-for-and-doseq/</loc>
     <lastmod>2016-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/article/code-rant/</loc>
+    <loc>http://nunes.io/notes/article/code-rant/</loc>
     <lastmod>2016-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/redux-the-single-immutable-state-tree/</loc>
+    <loc>http://nunes.io/notes/guide/redux-the-single-immutable-state-tree/</loc>
     <lastmod>2016-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/article/human-error/</loc>
+    <loc>http://nunes.io/notes/article/human-error/</loc>
     <lastmod>2015-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/talk/simple-made-easy/</loc>
+    <loc>http://nunes.io/notes/talk/simple-made-easy/</loc>
     <lastmod>2015-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/a-guide-to-flexbox/</loc>
+    <loc>http://nunes.io/notes/guide/a-guide-to-flexbox/</loc>
     <lastmod>2015-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/emacs-for-macos/</loc>
+    <loc>http://nunes.io/notes/guide/emacs-for-macos/</loc>
     <lastmod>2015-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/library/extract-text-webpack-plugin/</loc>
+    <loc>http://nunes.io/notes/library/extract-text-webpack-plugin/</loc>
     <lastmod>2015-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</loc>
+    <loc>http://nunes.io/notes/guide/webpack-sass-where-is-the-css-file/</loc>
     <lastmod>2015-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/notes/article/react-four-ways-how-to-use-react-in-clojurescript/</loc>
+    <loc>http://nunes.io/notes/article/react-four-ways-how-to-use-react-in-clojurescript/</loc>
     <lastmod>2015-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</loc>
+    <loc>http://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</loc>
     <lastmod>2015-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nunes.io/about/</loc>
+    <loc>http://nunes.io/about/</loc>
   </url>
   
 </urlset>

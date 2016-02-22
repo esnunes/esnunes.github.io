@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTTP Proxy on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/http-proxy/</link>
+    <link>http://nunes.io/categories/http-proxy/</link>
     <description>Recent content in HTTP Proxy on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 02 May 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/http-proxy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/http-proxy/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to access docker containers from external devices</title>
-      <link>https://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</link>
+      <link>http://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</link>
       <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</guid>
+      <guid>http://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</guid>
       <description>
 
 &lt;p&gt;The solution proposed on this post doesn&amp;rsquo;t apply only to docker containers but to any service you run in a local private network. By local private network I mean any kind of network that you can only access locally, from your computer, examples of these networks are NAT based VMs, docker network or a private VPN.&lt;/p&gt;

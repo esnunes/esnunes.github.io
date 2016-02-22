@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Om on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/om/</link>
+    <link>http://nunes.io/categories/om/</link>
     <description>Recent content in Om on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 06 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/om/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/om/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Om (next) Tutorial Code</title>
-      <link>https://nunes.io/notes/guide/om-next-tutorial/</link>
+      <link>http://nunes.io/notes/guide/om-next-tutorial/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/om-next-tutorial/</guid>
+      <guid>http://nunes.io/notes/guide/om-next-tutorial/</guid>
       <description>&lt;p&gt;Seems to be a good Om (next) tutorial. As soon as I read it I will update this doc.&lt;/p&gt;
 </description>
     </item>

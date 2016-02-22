@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clojure on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/clojure/</link>
+    <link>http://nunes.io/categories/clojure/</link>
     <description>Recent content in Clojure on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 06 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/clojure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/clojure/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Foam</title>
-      <link>https://nunes.io/notes/library/foam/</link>
+      <link>http://nunes.io/notes/library/foam/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/library/foam/</guid>
+      <guid>http://nunes.io/notes/library/foam/</guid>
       <description>&lt;p&gt;Foam is a hack to add server-side rendering to Om. I still have to test it before give my opinion but it seems to be nice.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Om (next) Tutorial Code</title>
-      <link>https://nunes.io/notes/guide/om-next-tutorial/</link>
+      <link>http://nunes.io/notes/guide/om-next-tutorial/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/om-next-tutorial/</guid>
+      <guid>http://nunes.io/notes/guide/om-next-tutorial/</guid>
       <description>&lt;p&gt;Seems to be a good Om (next) tutorial. As soon as I read it I will update this doc.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Clojure: Destructuring</title>
-      <link>https://nunes.io/notes/guide/clojure-destructuring/</link>
+      <link>http://nunes.io/notes/guide/clojure-destructuring/</link>
       <pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/clojure-destructuring/</guid>
+      <guid>http://nunes.io/notes/guide/clojure-destructuring/</guid>
       <description>&lt;p&gt;This article provides a summary of how to extract keys, values, items from maps, vectors, sequences, etc.&lt;/p&gt;
 
 &lt;p&gt;All information is lead by examples, so even if you don&amp;rsquo;t want to read everything you can get the overall idea by looking at the source code.&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>Clojure: Difference between for and doseq</title>
-      <link>https://nunes.io/notes/guide/clojure-difference-between-for-and-doseq/</link>
+      <link>http://nunes.io/notes/guide/clojure-difference-between-for-and-doseq/</link>
       <pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/clojure-difference-between-for-and-doseq/</guid>
+      <guid>http://nunes.io/notes/guide/clojure-difference-between-for-and-doseq/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;for&lt;/code&gt; returns a sequence with the result of each execution&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;doseq&lt;/code&gt; returns nil;&lt;/li&gt;
@@ -56,10 +56,10 @@
     
     <item>
       <title>Simple Made Easy</title>
-      <link>https://nunes.io/notes/talk/simple-made-easy/</link>
+      <link>http://nunes.io/notes/talk/simple-made-easy/</link>
       <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/talk/simple-made-easy/</guid>
+      <guid>http://nunes.io/notes/talk/simple-made-easy/</guid>
       <description>&lt;p&gt;This presentation points out the different between &lt;strong&gt;simple&lt;/strong&gt; and &lt;strong&gt;easy&lt;/strong&gt;. It starts talking about the difference between those two words from their word origin. He defines both words and their antonymous (complex and hard) in the context of Software Development.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Easy&lt;/strong&gt; / &lt;strong&gt;Hard&lt;/strong&gt; are relative, they depend on how familiar an individual is with something. The things that might be easy for me might be hard for you.&lt;/p&gt;

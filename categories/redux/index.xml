@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Redux on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/redux/</link>
+    <link>http://nunes.io/categories/redux/</link>
     <description>Recent content in Redux on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 03 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/redux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/redux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Redux: The Single Immutable State Tree</title>
-      <link>https://nunes.io/notes/guide/redux-the-single-immutable-state-tree/</link>
+      <link>http://nunes.io/notes/guide/redux-the-single-immutable-state-tree/</link>
       <pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/redux-the-single-immutable-state-tree/</guid>
+      <guid>http://nunes.io/notes/guide/redux-the-single-immutable-state-tree/</guid>
       <description>&lt;p&gt;Watched till the 13th episode, it is enlightening.&lt;/p&gt;
 </description>
     </item>

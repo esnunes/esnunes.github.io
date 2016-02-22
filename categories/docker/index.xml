@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/docker/</link>
+    <link>http://nunes.io/categories/docker/</link>
     <description>Recent content in Docker on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 17 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Docker: How to set docker0 ip address</title>
-      <link>https://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</link>
+      <link>http://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</link>
       <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</guid>
+      <guid>http://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;DOCKER_OPTS=&amp;quot;--bip=172.17.42.1/16&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
@@ -22,10 +22,10 @@
     
     <item>
       <title>Docker: Saving memory and CPU</title>
-      <link>https://nunes.io/notes/guide/docker-saving-memory-and-cpu/</link>
+      <link>http://nunes.io/notes/guide/docker-saving-memory-and-cpu/</link>
       <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/docker-saving-memory-and-cpu/</guid>
+      <guid>http://nunes.io/notes/guide/docker-saving-memory-and-cpu/</guid>
       <description>&lt;p&gt;Docker spawns a &lt;code&gt;docker-proxy&lt;/code&gt; application whenever you run a docker container.
 The application is responsible to proxy ports between the host machine and
 the container. I&amp;rsquo;m not sure when but newer versions of Linux Kernel support
@@ -41,10 +41,10 @@ a special network flag that makes &lt;code&gt;docker-proxy&lt;/code&gt; obsolete
     
     <item>
       <title>How to access docker containers from external devices</title>
-      <link>https://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</link>
+      <link>http://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</link>
       <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</guid>
+      <guid>http://nunes.io/blog/how-to-access-docker-containers-from-external-devices/</guid>
       <description>
 
 &lt;p&gt;The solution proposed on this post doesn&amp;rsquo;t apply only to docker containers but to any service you run in a local private network. By local private network I mean any kind of network that you can only access locally, from your computer, examples of these networks are NAT based VMs, docker network or a private VPN.&lt;/p&gt;

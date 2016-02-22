@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boot clj on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/boot-clj/</link>
+    <link>http://nunes.io/categories/boot-clj/</link>
     <description>Recent content in Boot clj on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 21 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/boot-clj/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/boot-clj/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Boot clj: Examples</title>
-      <link>https://nunes.io/notes/guide/boot-clj-examples/</link>
+      <link>http://nunes.io/notes/guide/boot-clj-examples/</link>
       <pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/boot-clj-examples/</guid>
+      <guid>http://nunes.io/notes/guide/boot-clj-examples/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/leblowl/lokate/blob/master/build.boot&#34; target=&#34;_blank&#34;&gt;https://github.com/leblowl/lokate/blob/master/build.boot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -23,10 +23,10 @@
     
     <item>
       <title>Boot clj: Install Instructions</title>
-      <link>https://nunes.io/notes/guide/boot-clj-install-instructions/</link>
+      <link>http://nunes.io/notes/guide/boot-clj-install-instructions/</link>
       <pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/guide/boot-clj-install-instructions/</guid>
+      <guid>http://nunes.io/notes/guide/boot-clj-install-instructions/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# update brew to install latest install script
 brew update; brew install boot-clj
 # run any boot command to force install

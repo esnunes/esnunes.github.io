@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ports and Adapters on Eduardo Nunes</title>
-    <link>https://nunes.io/categories/ports-and-adapters/</link>
+    <link>http://nunes.io/categories/ports-and-adapters/</link>
     <description>Recent content in Ports and Adapters on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 10 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nunes.io/categories/ports-and-adapters/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/ports-and-adapters/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Enabling Microservices with Domain Driven Design and Ports &amp; Adapters</title>
-      <link>https://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</link>
+      <link>http://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</guid>
+      <guid>http://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</guid>
       <description>&lt;p&gt;This is a very interesting video that demonstrates the power of using DDD
 together with Ports &amp;amp; Adapters pattern. I totally agree with the concept.
 By using Ports &amp;amp; Adapters you can easily understand the business logic without
