@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SCORM on Eduardo Nunes</title>
+    <link>https://nunes.io/categories/scorm/</link>
+    <description>Recent content in SCORM on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 28 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/categories/scorm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Experience API</title>
+      <link>https://nunes.io/notes/overview/experience-api/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/overview/experience-api/</guid>
+      <description>
+
+&lt;p&gt;Experience API is also known as &lt;a href=&#34;https://tincanapi.com/overview/tin-can-xapi&#34; target=&#34;_blank&#34;&gt;Tin Can API or xAPI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is an evolved version of SCORM (Sharable Content Object Reference Model).&lt;/p&gt;
+
+&lt;h2 id=&#34;format&#34;&gt;Format&lt;/h2&gt;
+
+&lt;p&gt;The format is quite simple: &lt;code&gt;Noun, verb, object&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;entities&#34;&gt;Entities&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Activity Provider (AP): responsible to create and track learning experiences;&lt;/li&gt;
+&lt;li&gt;Learning Record Store (LRS): responsible to store the tracking data;&lt;/li&gt;
+&lt;li&gt;Activity: it is the object in the &lt;code&gt;Noun, verb, object&lt;/code&gt; protocol. E.g. a book, an e-learning course, a meeting, some real object like a chair in a classroom, etc;&lt;/li&gt;
+&lt;li&gt;Actor: individual or group that does the action;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;Verb&lt;/code&gt; must be in the past tense, although their display properties may be flexible in tense.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

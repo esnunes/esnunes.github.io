@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Eduardo S. Nunes">
+
+<base href="https://nunes.io/">
+<title>
+
+
+     MongoDB: Backup and Restore 
+
+</title>
+
+<link rel="canonical" href="https://nunes.io/notes/guide/mongodb-backup-and-restore/">
+
+
+<script type="text/javascript">
+    var baseURL = 'https:\/\/nunes.io\/';
+    var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+        window.location.protocol = 'https:';
+    }
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="https://nunes.io/css/reset.css">
+<link rel="stylesheet" href="https://nunes.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/github.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            <a href="https://nunes.io/"><div class="name">Eduardo Nunes</div></a>
+            <nav>
+                <ul>
+                  <a href="https://nunes.io/notes/"><li>Notes</li></a>
+                  <a href="https://nunes.io/blog/"><li>Blog</li></a>
+                  
+                  <a href="https://nunes.io/about/"><li>About</li></a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/esnunes" target="_blank">
+                <i class="icon ion-social-github"></i>
+            </a>
+        
+
+        
+            <a href="//www.npmjs.com/~esnunes" target="_blank">
+                <i class="icon ion-social-nodejs"></i>
+            </a>
+        
+
+        
+            <a href="//twitter.com/esnunes" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+        
+
+        
+            <a href="//linkedin.com/in/esnunes" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+            </a>
+        
+
+        
+
+        
+
+        
+            <a href="mailto:esnunes@gmail.com">
+                <i class="icon ion-ios-email larger"></i>
+            </a>
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+          <div class="page-heading">
+
+    MongoDB: Backup and Restore
+
+</div>
+
+          
+          <div class="markdown">
+              <pre><code class="language-bash"># backup a specific database
+mongodump --host 192.168.1.2 --port 27017 --db database_name --username mongodevdb --password YourSecretPwd
+# the backup will generated in the current folder + dump
+
+# restore a specific database
+mongorestore --host 192.168.1.2 --port 27017 --db database_name --username mongodevdb --password YourSecretPwd --drop /backup/dump
+# the --drop argument drops the database before restore - be careful
+</code></pre>
+
+          </div>
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("XYZ");
+    pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+
+
+</body>
+</html>
+

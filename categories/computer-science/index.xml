@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Science on Eduardo Nunes</title>
+    <link>https://nunes.io/categories/computer-science/</link>
+    <description>Recent content in Computer Science on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 10 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/categories/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Last Programming Language (Future of Programming Language)</title>
+      <link>https://nunes.io/notes/talk/the-last-programming-language/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/talk/the-last-programming-language/</guid>
+      <description>&lt;p&gt;Just amazing, Robert Martin (Uncle Bob) points out how the history of computer
+science affects the way we develop code nowadays and the reason why lots of
+amazing things were invented in the beginning and today we have the lack of it.&lt;/p&gt;
+
+&lt;p&gt;Robert Martin also points out that we may end up being regulated in case
+we don&amp;rsquo;t take control of the future of computer science, specially regarding
+doing things right. He mentions that because at the moment people are
+extremely affected by us, they are constantly interacting with software. Soon
+people will accidentally, or not, start to being killed by software.&lt;/p&gt;
+
+&lt;p&gt;He also compares our industry to others like lawyers, doctors, etc, they all
+have their ethic code, they can be banished in case they do intentionally
+something wrong, even if they got asked to do it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code Rant</title>
+      <link>https://nunes.io/notes/article/code-rant/</link>
+      <pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/article/code-rant/</guid>
+      <description>
+
+&lt;h1 id=&#34;code-rant&#34;&gt;Code Rant&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

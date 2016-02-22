@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emacs on Eduardo Nunes</title>
+    <link>https://nunes.io/categories/emacs/</link>
+    <description>Recent content in Emacs on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 17 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Emacs: How to install on Mac OS X</title>
+      <link>https://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</link>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;brew install emacs --with-cocoa --srgb
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emacs: Keyboard shortcuts</title>
+      <link>https://nunes.io/notes/guide/emacs-keyboard-shortcuts/</link>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/emacs-keyboard-shortcuts/</guid>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;M-:&lt;/kbd&gt; - Evaluate Emacs Lisp expression&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;M-;&lt;/kbd&gt; - Comment line / block&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-_&lt;/kbd&gt; - Undo&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;ESC-&amp;lt;&lt;/kbd&gt; - Top of the file&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;ESC-&amp;gt;&lt;/kbd&gt; - Bottom of the file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;window-management&#34;&gt;Window management&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;C-x 5 2&lt;/kbd&gt; - Create new frame&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-x 5 0&lt;/kbd&gt; - Close current frame&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-x 2&lt;/kbd&gt; - Vertical frame split&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-x 3&lt;/kbd&gt; - Horizontal frame split&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-x o&lt;/kbd&gt; - Move to &lt;em&gt;other&lt;/em&gt; window&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;dired&#34;&gt;Dired&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;d&lt;/kbd&gt; - Mark file to deletion&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;x&lt;/kbd&gt; - Execute marked changes (e.g. delete marked files)&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;g&lt;/kbd&gt; - Refresh&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emacs For Mac OS</title>
+      <link>https://nunes.io/notes/guide/emacs-for-macos/</link>
+      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/emacs-for-macos/</guid>
+      <description>&lt;p&gt;This wiki page is continuously updated with information about how to install, run and config Emacs for Mac OS X.&lt;/p&gt;
+
+&lt;p&gt;It has some interesting information about:
+- Handle encoding problems in Terminal;
+- Some key binding tips;
+- Enable / Disable anti-alias;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

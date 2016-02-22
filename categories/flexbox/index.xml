@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flexbox on Eduardo Nunes</title>
+    <link>https://nunes.io/categories/flexbox/</link>
+    <description>Recent content in Flexbox on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 04 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/categories/flexbox/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Complete Guide to Flexbox</title>
+      <link>https://nunes.io/notes/guide/a-guide-to-flexbox/</link>
+      <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/a-guide-to-flexbox/</guid>
+      <description>&lt;p&gt;This link contains a very nice visual description of how flexbox display works. Considering my knowledge at the moment I&amp;rsquo;m writing this (2015-12-04), it looks like it covers everything you can do with flexbox.&lt;/p&gt;
+
+&lt;p&gt;Some of the features provided by flexbox:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;horizontal alignment;&lt;/li&gt;
+&lt;li&gt;vertical alignment;&lt;/li&gt;
+&lt;li&gt;shrink and expand items;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

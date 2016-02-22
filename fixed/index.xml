@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fixed on Eduardo Nunes</title>
+    <link>https://nunes.io/fixed/</link>
+    <description>Recent content in Fixed on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <atom:link href="https://nunes.io/fixed/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>https://nunes.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/about/</guid>
+      <description>
+
+&lt;p&gt;Hi! I&amp;rsquo;m Eduardo Nunes!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m a Software Engineer with 16+ years of work experience, interested in Programming Languages, Software Architectures, Distributed Systems, Microservices, DevOps, Product Design, UX, etc.&lt;/p&gt;
+
+&lt;p&gt;I currently work at &lt;a href=&#34;http://www.bravi.com.br&#34; target=&#34;_blank&#34;&gt;Bravi&lt;/a&gt; as a Lead Software Architect. Before that I was co-founder of a startup, Chief Technology Officer at &lt;a href=&#34;http://www.conrad-caine.com&#34; target=&#34;_blank&#34;&gt;Conrad-Caine&lt;/a&gt;, Software Developer at an E-mail Marketing Startup and Network Administrator at &lt;a href=&#34;http://www.vetorial.net/&#34; target=&#34;_blank&#34;&gt;Vetorial.net&lt;/a&gt; ISP. Check out my &lt;a href=&#34;https://br.linkedin.com/in/esnunes&#34; target=&#34;_blank&#34;&gt;LinkedIn&lt;/a&gt; profile for more information about my work experience.&lt;/p&gt;
+
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been working with lots of different technologies and solutions over the years. It is hard to remember all of them however I will try to list them in a kind of chronological order (most recent ones first), I highly recommend you read it from bottom to top.&lt;/p&gt;
+
+&lt;h3 id=&#34;bravi-era&#34;&gt;Bravi Era&lt;/h3&gt;
+
+&lt;p&gt;My first goals at Bravi were to technically build up a team and to architect the software foundation for the development of products. Besides line management duties, part of main responsibilities at Bravi are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Plan / support development of the technology skills of all developers;&lt;/li&gt;
+&lt;li&gt;Design and architect products and services;&lt;/li&gt;
+&lt;li&gt;Participate as a member of the senior management team;&lt;/li&gt;
+&lt;li&gt;Monitor, evaluate and select technologies that can be applied to future products and services;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of the key decisions I took right after join Bravi was to adopt microservices as the main software architecture to build up the software foundation for all products and services. Apart from microservices I&amp;rsquo;ve been developing lots of different skills, part of them as consequences of the chosen architecture:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AWS (Amazon Web Services)
+
+&lt;ul&gt;
+&lt;li&gt;VPC&lt;/li&gt;
+&lt;li&gt;ELB&lt;/li&gt;
+&lt;li&gt;EC2 AutoScaling&lt;/li&gt;
+&lt;li&gt;RDS&lt;/li&gt;
+&lt;li&gt;CloudFormation&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;CoreOS&lt;/li&gt;
+&lt;li&gt;Flux
+
+&lt;ul&gt;
+&lt;li&gt;Flummox&lt;/li&gt;
+&lt;li&gt;Fluxible&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;React JS&lt;/li&gt;
+&lt;li&gt;Fig (aka Docker Compose)&lt;/li&gt;
+&lt;li&gt;MongoDB&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;li&gt;OAuth2&lt;/li&gt;
+&lt;li&gt;Apache Solr&lt;/li&gt;
+&lt;li&gt;The Twelve-Factor App&lt;/li&gt;
+&lt;li&gt;Microservices&lt;/li&gt;
+&lt;li&gt;NGINX&lt;/li&gt;
+&lt;li&gt;Node.js
+
+&lt;ul&gt;
+&lt;li&gt;Mongoose&lt;/li&gt;
+&lt;li&gt;axios&lt;/li&gt;
+&lt;li&gt;webpack&lt;/li&gt;
+&lt;li&gt;babel&lt;/li&gt;
+&lt;li&gt;http-proxy&lt;/li&gt;
+&lt;li&gt;lodash&lt;/li&gt;
+&lt;li&gt;Knex JS&lt;/li&gt;
+&lt;li&gt;Yeoman&lt;/li&gt;
+&lt;li&gt;swig&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As this blog evolves I will keep this section updated, I will also add more detailed information regarding the skills I&amp;rsquo;m developing at the moment.&lt;/p&gt;
+
+&lt;h3 id=&#34;general-web-and-mobile-era&#34;&gt;General Web and Mobile Era&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Node.js
+Since Node.js become production ready (actually when it got stable enough), I decided to use it wherever it was possible. End-to-End JavaScript, High performance, Low memory footprint, Single Thread, Fast boot, NPM, Http client / server, those as just a few features / benefits that made me take the decision to use it as the main language for almost all projects. I started developing Node.js apps using the following stack:
+
+&lt;ul&gt;
+&lt;li&gt;Express&lt;/li&gt;
+&lt;li&gt;node-mysql&lt;/li&gt;
+&lt;li&gt;async&lt;/li&gt;
+&lt;li&gt;rsvp&lt;/li&gt;
+&lt;li&gt;request&lt;/li&gt;
+&lt;li&gt;ejs&lt;/li&gt;
+&lt;li&gt;commander&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Developed Android 1.6+ and iOS 4+ native, hybrid (PhoneGap) and web-only apps for worldwide companies. The apps could be categorized as:
+
+&lt;ul&gt;
+&lt;li&gt;Advertising apps;&lt;/li&gt;
+&lt;li&gt;Learning apps (course-based, SCORM, etc);&lt;/li&gt;
+&lt;li&gt;Utilities apps;&lt;/li&gt;
+&lt;li&gt;Institutional apps (general information, reports, etc);&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Developed web sites for digital agencies using the following PHP Web Frameworks:
+
+&lt;ul&gt;
+&lt;li&gt;CakePHP&lt;/li&gt;
+&lt;li&gt;CodeIgniter&lt;/li&gt;
+&lt;li&gt;Symfony 2&lt;/li&gt;
+&lt;li&gt;Zend Framework&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Python + Django
+
+&lt;ul&gt;
+&lt;li&gt;Developed a small web application to provide charts and analytic information based on power consumption logs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;java-web-era&#34;&gt;Java Web Era&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JavaScript
+
+&lt;ul&gt;
+&lt;li&gt;Although I had contact with JavaScript before, I really got experienced on it developing web applications backed by Java. By covering JavaScript / HMTL / CSS I became a Fullstack Software Engineer which helped me a lot my career as Software Architect and CTO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;PostgreSQL
+
+&lt;ul&gt;
+&lt;li&gt;MySQL is awesome but I had some requirements that made me take the decision to learn PostgreSQL and use it for some projects. Nowadays they are much more close regarding performance and features although PostgreSQL still have some advantages like geolocation handling.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;During at least 6 years I focused my career on Java ecosystem.
+
+&lt;ul&gt;
+&lt;li&gt;I developed a distributed system to delivery e-mail marketing, a product very similar to MailChimp (One year after leaving the company, the product was sold to its major competitor in Brazil).&lt;/li&gt;
+&lt;li&gt;During my work as Chief Technology Officer at &lt;a href=&#34;http://www.conrad-caine.com&#34; target=&#34;_blank&#34;&gt;Conrad-Caine&lt;/a&gt; I developed lots of Java applications, including:&lt;/li&gt;
+&lt;li&gt;An intranet web application to deal with company hierarchy, job descriptions, open jobs and applicants;&lt;/li&gt;
+&lt;li&gt;A huge single page application to manage and map companies strategies;&lt;/li&gt;
+&lt;li&gt;A social network for disabled people;&lt;/li&gt;
+&lt;li&gt;An insurance web platform to connect customers and brokers;&lt;/li&gt;
+&lt;li&gt;Lots of Web sites and landing pages;&lt;/li&gt;
+&lt;li&gt;The applications listed above had different stacks and the stacks were formed by the following set of frameworks / libraries:&lt;/li&gt;
+&lt;li&gt;JDK versions 4, 5 and 6&lt;/li&gt;
+&lt;li&gt;JEE 5 (JSF, JPA)
+
+&lt;ul&gt;
+&lt;li&gt;Facelets&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Glassfish, JBoss, Tomcat and Jetty&lt;/li&gt;
+&lt;li&gt;Hibernate&lt;/li&gt;
+&lt;li&gt;Struts 2&lt;/li&gt;
+&lt;li&gt;GWT&lt;/li&gt;
+&lt;li&gt;Spring&lt;/li&gt;
+&lt;li&gt;FreeMarker&lt;/li&gt;
+&lt;li&gt;JSP&lt;/li&gt;
+&lt;li&gt;Velocity&lt;/li&gt;
+&lt;li&gt;Java Spaces (GigaSpaces)&lt;/li&gt;
+&lt;li&gt;DWR&lt;/li&gt;
+&lt;li&gt;Swing&lt;/li&gt;
+&lt;li&gt;IDEs (Netbeans, Eclipse)&lt;/li&gt;
+&lt;li&gt;Google Guice&lt;/li&gt;
+&lt;li&gt;Servlet API&lt;/li&gt;
+&lt;li&gt;Ant&lt;/li&gt;
+&lt;li&gt;Maven 1 and 2&lt;/li&gt;
+&lt;li&gt;ArgoUML&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;university-and-past-era&#34;&gt;University and past Era&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MySQL was the simplest and easiest relational database to learn and use. It became my favorite DB for years.&lt;/li&gt;
+&lt;li&gt;Linux Kernel Modules
+
+&lt;ul&gt;
+&lt;li&gt;During my Bachelor in Computer Science I participated of a Study group that had the aim of improve Distance Learning experience and I was responsible to improve feedback regarding servers as DL courses require lots of servers up and running to work. My goal was to monitor changes in the filesystem, identifying any unexpected behavior. I developed a kernel module to log file system changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;PHP
+
+&lt;ul&gt;
+&lt;li&gt;I started simply replacing CGIs by PHP scripts.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;PalmOS
+
+&lt;ul&gt;
+&lt;li&gt;As every new computer-based toy I had, I got interested in develop something on it although I ended up just learning how to do it and creating some silly apps (like a IRC contact list app)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;GTK
+
+&lt;ul&gt;
+&lt;li&gt;Rebuilt the set of UI Object Pascal components using GTK&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;XWindows
+
+&lt;ul&gt;
+&lt;li&gt;Learn XWindows protocol and its internals has helped me a lot to understand all window-based operational systems / environments. The concept of windows, events, event propagation become more clear and made me better understand the internals of Delphi / Windows too.&lt;/li&gt;
+&lt;li&gt;Developed a set of UI Object Pascal components (free pascal) from scratch using XWindows protocol&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;C++
+
+&lt;ul&gt;
+&lt;li&gt;Developed an SNMP server for embedded linux&lt;/li&gt;
+&lt;li&gt;Developed a set of classes to deal with Sockets, UDP, TCP and SSL (client and server)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Make (Makefiles)&lt;/li&gt;
+&lt;li&gt;C
+
+&lt;ul&gt;
+&lt;li&gt;C was the next step of my career, it was impossible to manage linux without knowing at least a bit of C. During those days to make linux work perfectly on your notebook you had to do a lot of tweaks, add open source kernel drivers, test lots of solutions and configurations.&lt;/li&gt;
+&lt;li&gt;Together with Pascal, C become my favorite programming language, by using it I was able to do whatever I wanted including interoperate with FreePascal. I also started to have contact with C during High School (data processing course)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;FreePascal
+
+&lt;ul&gt;
+&lt;li&gt;After falling in love with Linux, find an object pascal compiler was the first step to take and FreePascal was the best option, an awesome compiler, very well written and multi-platform&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Linux
+
+&lt;ul&gt;
+&lt;li&gt;I had my first contact with Linux around 1998 and it directly become my favorite development environment. The flexibility of Linux is perfect for developers, you have the power to change whatever you want and customize your operational system as you wish. At that moment Slackware was perfect but unfortunately it became outdated and Gentoo had the best structure, you were able to compile the whole operational system - including tools and applications - with optimizations specific to your hardware, improving a lot performance (I had an Intel Pentium 100). Due to ISP and general Network Administration duties I learnt the specifics of Debian and Ubuntu.&lt;/li&gt;
+&lt;li&gt;Worked in an ISP setting up IRC server, FTP server, SMTP (Postfix) server, Quake Server, VPN, Internet Gateway, HTTP proxy (squid)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Delphi
+
+&lt;ul&gt;
+&lt;li&gt;Developed client-server checkers game&lt;/li&gt;
+&lt;li&gt;Developed client-server Clue-like board game&lt;/li&gt;
+&lt;li&gt;Developed a skinnable IRC client&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;mIRC Script
+
+&lt;ul&gt;
+&lt;li&gt;Developed mIRC script named nIRC (Nunes IRC)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Turbo Pascal
+
+&lt;ul&gt;
+&lt;li&gt;Developed static page generator&lt;/li&gt;
+&lt;li&gt;Played with MS-DOS terminal, creating windows, menus, keyboard event handling, etc.&lt;/li&gt;
+&lt;li&gt;Played with data structures, simple file compression and file-based data structures&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;QBasic
+
+&lt;ul&gt;
+&lt;li&gt;Very very very basic programming knowledge&lt;/li&gt;
+&lt;li&gt;Played a lot with sound function&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

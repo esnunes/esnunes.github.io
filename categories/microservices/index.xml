@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microservices on Eduardo Nunes</title>
+    <link>https://nunes.io/categories/microservices/</link>
+    <description>Recent content in Microservices on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 10 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/categories/microservices/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Enabling Microservices with Domain Driven Design and Ports &amp; Adapters</title>
+      <link>https://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</guid>
+      <description>&lt;p&gt;This is a very interesting video that demonstrates the power of using DDD
+together with Ports &amp;amp; Adapters pattern. I totally agree with the concept.
+By using Ports &amp;amp; Adapters you can easily understand the business logic without
+having to look at boilerplate code (the ports and adapters).&lt;/p&gt;
+
+&lt;p&gt;The speaker recommends the book &amp;ldquo;Building Microservices - Desining fine-grained
+systems&amp;rdquo;. The speaker mentions that the book cover lots of ideas of DDD and
+ports &amp;amp; adapters, that it is worth reading it in case you agree with the
+things he speaks of.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

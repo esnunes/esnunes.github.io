@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ClojureScript on Eduardo Nunes</title>
+    <link>https://nunes.io/categories/clojurescript/</link>
+    <description>Recent content in ClojureScript on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 06 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/categories/clojurescript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Om (next) Tutorial Code</title>
+      <link>https://nunes.io/notes/guide/om-next-tutorial/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/om-next-tutorial/</guid>
+      <description>&lt;p&gt;Seems to be a good Om (next) tutorial. As soon as I read it I will update this doc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>React Four Ways: How to Use React in ClojureScript, and Why</title>
+      <link>https://nunes.io/notes/article/react-four-ways-how-to-use-react-in-clojurescript/</link>
+      <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/article/react-four-ways-how-to-use-react-in-clojurescript/</guid>
+      <description>&lt;p&gt;This article contains a comparison between four ClojureScript frameworks on top of React. The frameworks might be outdated but they may be a reference of different point-of-views of using React in ClojureScript.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

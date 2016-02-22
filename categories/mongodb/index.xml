@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MongoDB on Eduardo Nunes</title>
+    <link>https://nunes.io/categories/mongodb/</link>
+    <description>Recent content in MongoDB on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 18 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/categories/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MongoDB: Backup and Restore</title>
+      <link>https://nunes.io/notes/guide/mongodb-backup-and-restore/</link>
+      <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/mongodb-backup-and-restore/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# backup a specific database
+mongodump --host 192.168.1.2 --port 27017 --db database_name --username mongodevdb --password YourSecretPwd
+# the backup will generated in the current folder + dump
+
+# restore a specific database
+mongorestore --host 192.168.1.2 --port 27017 --db database_name --username mongodevdb --password YourSecretPwd --drop /backup/dump
+# the --drop argument drops the database before restore - be careful
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

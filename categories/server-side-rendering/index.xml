@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server Side Rendering on Eduardo Nunes</title>
+    <link>https://nunes.io/categories/server-side-rendering/</link>
+    <description>Recent content in Server Side Rendering on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 06 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/categories/server-side-rendering/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Foam</title>
+      <link>https://nunes.io/notes/library/foam/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/library/foam/</guid>
+      <description>&lt;p&gt;Foam is a hack to add server-side rendering to Om. I still have to test it before give my opinion but it seems to be nice.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

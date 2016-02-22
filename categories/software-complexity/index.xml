@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Complexity on Eduardo Nunes</title>
+    <link>https://nunes.io/categories/software-complexity/</link>
+    <description>Recent content in Software Complexity on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 05 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/categories/software-complexity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Human Error</title>
+      <link>https://nunes.io/notes/article/human-error/</link>
+      <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/article/human-error/</guid>
+      <description>&lt;p&gt;This article points out some very good material about software engineering, specially related to develop simple software and the future of software development.&lt;/p&gt;
+
+&lt;p&gt;The article recommends the following material:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Human Error&lt;/em&gt; - book by James Reason (deep);&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Design of Everyday Things&lt;/em&gt; - book by Don Norman (overview);&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Simple Made Easy&lt;/em&gt; - presentation by Rich Hickey;&lt;/li&gt;
+&lt;li&gt;A reprise of &lt;em&gt;Simple Made Easy&lt;/em&gt; at RailsConf 2012;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The future of computing&lt;/em&gt; - article by Leslie Lamport;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple Made Easy</title>
+      <link>https://nunes.io/notes/talk/simple-made-easy/</link>
+      <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/talk/simple-made-easy/</guid>
+      <description>&lt;p&gt;This presentation points out the different between &lt;strong&gt;simple&lt;/strong&gt; and &lt;strong&gt;easy&lt;/strong&gt;. It starts talking about the difference between those two words from their word origin. He defines both words and their antonymous (complex and hard) in the context of Software Development.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Easy&lt;/strong&gt; / &lt;strong&gt;Hard&lt;/strong&gt; are relative, they depend on how familiar an individual is with something. The things that might be easy for me might be hard for you.&lt;/p&gt;
+
+&lt;p&gt;Developers usually focus on trying to make the process of construct software easy however what really brings flexibility, maintainability, quality, etc is simplicity.&lt;/p&gt;
+
+&lt;p&gt;Even if something is hard to learn but helps you to create simple software it is worth using it.&lt;/p&gt;
+
+&lt;p&gt;Complex things are too tight, connected, coupled. We are limited to the things we can reason about at the same moment. Rich Hickey compares a regular person that can juggle 3 balls at the same time with the one who is the best in the world. Probably the best in the world might be able to juggle 6 or 20 at the same time however he won&amp;rsquo;t be able to juggle 100 balls, there is a limit on it.&lt;/p&gt;
+
+&lt;p&gt;Rich Hickey lists some points that must be considered when choosing technology and tools to develop software in order to make it simple.&lt;/p&gt;
+
+&lt;p&gt;He does some comparison with unit tests that are supposed to bring flexibility (ability to change) and guard rails, &amp;ldquo;nobody drives hitting the guard rails&amp;rdquo;. Almost all hard to find issues are not covered by tests, they require that you understand the source code.&lt;/p&gt;
+
+&lt;p&gt;He says that if you favor easy over simple you will get speed during a short period of time however in the long run simple is much better. He compares to runners, they can run super fast for a short time but when they want to run for a long time they can&amp;rsquo;t start super fast, it is better to keep the pace. He says a fun thing about agile, he mentioned that we &lt;em&gt;solved&lt;/em&gt; this problem creating sprints, so every week someone fires the starting pistol.&lt;/p&gt;
+
+&lt;p&gt;Rich Hickey is the author of Clojure.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

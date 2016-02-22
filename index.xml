@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eduardo Nunes</title>
+    <link>https://nunes.io/</link>
+    <description>Recent content on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 21 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nunes.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Boot clj: Examples</title>
+      <link>https://nunes.io/notes/guide/boot-clj-examples/</link>
+      <pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/boot-clj-examples/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/leblowl/lokate/blob/master/build.boot&#34; target=&#34;_blank&#34;&gt;https://github.com/leblowl/lokate/blob/master/build.boot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Boot clj: Install Instructions</title>
+      <link>https://nunes.io/notes/guide/boot-clj-install-instructions/</link>
+      <pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/boot-clj-install-instructions/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# update brew to install latest install script
+brew update; brew install boot-clj
+# run any boot command to force install
+boot -h
+# the install script output that a new version was available
+# and after running `boot -h again` it installed the latest version.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MongoDB: Backup and Restore</title>
+      <link>https://nunes.io/notes/guide/mongodb-backup-and-restore/</link>
+      <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/mongodb-backup-and-restore/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# backup a specific database
+mongodump --host 192.168.1.2 --port 27017 --db database_name --username mongodevdb --password YourSecretPwd
+# the backup will generated in the current folder + dump
+
+# restore a specific database
+mongorestore --host 192.168.1.2 --port 27017 --db database_name --username mongodevdb --password YourSecretPwd --drop /backup/dump
+# the --drop argument drops the database before restore - be careful
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker: How to set docker0 ip address</title>
+      <link>https://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</link>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/docker-how-to-set-docker0-ip-address/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;DOCKER_OPTS=&amp;quot;--bip=172.17.42.1/16&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker: Saving memory and CPU</title>
+      <link>https://nunes.io/notes/guide/docker-saving-memory-and-cpu/</link>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/docker-saving-memory-and-cpu/</guid>
+      <description>&lt;p&gt;Docker spawns a &lt;code&gt;docker-proxy&lt;/code&gt; application whenever you run a docker container.
+The application is responsible to proxy ports between the host machine and
+the container. I&amp;rsquo;m not sure when but newer versions of Linux Kernel support
+a special network flag that makes &lt;code&gt;docker-proxy&lt;/code&gt; obsolete.&lt;/p&gt;
+
+&lt;p&gt;In order to save memory and CPU you must run docker daemon setting the flag
+&lt;code&gt;--userland-proxy=false&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;DOCKER_OPTS=&amp;quot;--userland-proxy=false&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emacs: How to install on Mac OS X</title>
+      <link>https://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</link>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/emacs-how-to-install-on-mac-os-x/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;brew install emacs --with-cocoa --srgb
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emacs: Keyboard shortcuts</title>
+      <link>https://nunes.io/notes/guide/emacs-keyboard-shortcuts/</link>
+      <pubDate>Wed, 17 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/emacs-keyboard-shortcuts/</guid>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;M-:&lt;/kbd&gt; - Evaluate Emacs Lisp expression&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;M-;&lt;/kbd&gt; - Comment line / block&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-_&lt;/kbd&gt; - Undo&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;ESC-&amp;lt;&lt;/kbd&gt; - Top of the file&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;ESC-&amp;gt;&lt;/kbd&gt; - Bottom of the file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;window-management&#34;&gt;Window management&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;C-x 5 2&lt;/kbd&gt; - Create new frame&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-x 5 0&lt;/kbd&gt; - Close current frame&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-x 2&lt;/kbd&gt; - Vertical frame split&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-x 3&lt;/kbd&gt; - Horizontal frame split&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;C-x o&lt;/kbd&gt; - Move to &lt;em&gt;other&lt;/em&gt; window&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;dired&#34;&gt;Dired&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;kbd&gt;d&lt;/kbd&gt; - Mark file to deletion&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;x&lt;/kbd&gt; - Execute marked changes (e.g. delete marked files)&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;g&lt;/kbd&gt; - Refresh&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enabling Microservices with Domain Driven Design and Ports &amp; Adapters</title>
+      <link>https://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</guid>
+      <description>&lt;p&gt;This is a very interesting video that demonstrates the power of using DDD
+together with Ports &amp;amp; Adapters pattern. I totally agree with the concept.
+By using Ports &amp;amp; Adapters you can easily understand the business logic without
+having to look at boilerplate code (the ports and adapters).&lt;/p&gt;
+
+&lt;p&gt;The speaker recommends the book &amp;ldquo;Building Microservices - Desining fine-grained
+systems&amp;rdquo;. The speaker mentions that the book cover lots of ideas of DDD and
+ports &amp;amp; adapters, that it is worth reading it in case you agree with the
+things he speaks of.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Last Programming Language (Future of Programming Language)</title>
+      <link>https://nunes.io/notes/talk/the-last-programming-language/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/talk/the-last-programming-language/</guid>
+      <description>&lt;p&gt;Just amazing, Robert Martin (Uncle Bob) points out how the history of computer
+science affects the way we develop code nowadays and the reason why lots of
+amazing things were invented in the beginning and today we have the lack of it.&lt;/p&gt;
+
+&lt;p&gt;Robert Martin also points out that we may end up being regulated in case
+we don&amp;rsquo;t take control of the future of computer science, specially regarding
+doing things right. He mentions that because at the moment people are
+extremely affected by us, they are constantly interacting with software. Soon
+people will accidentally, or not, start to being killed by software.&lt;/p&gt;
+
+&lt;p&gt;He also compares our industry to others like lawyers, doctors, etc, they all
+have their ethic code, they can be banished in case they do intentionally
+something wrong, even if they got asked to do it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Greg Young - CQRS and Event Sourcing - Code on the Beach 2014</title>
+      <link>https://nunes.io/notes/talk/cqrs-and-event-sourcing/</link>
+      <pubDate>Fri, 29 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/talk/cqrs-and-event-sourcing/</guid>
+      <description>&lt;p&gt;Very nice talk about event sourcing and how it is related to CQRS pattern.&lt;/p&gt;
+
+&lt;p&gt;The whole idea of storing events for future playback is awesome. You can&amp;rsquo;t get
+away of all pain points mentioned by Greg when it comes to move from Data
+model to Event sourcing because you will be ending up querying your data
+model (projections) instead of your event list, however in case something
+goes wrong and you loose data, or even if you want to infer some data based
+on events of the past you still have your immutable event sourcing storage.&lt;/p&gt;
+
+&lt;p&gt;One of the key issues of event sourcing, in my opinion, is how to deal with
+changes in the event structure. During the &lt;em&gt;open for questions&lt;/em&gt; part of the
+presentation Greg is asked about this and he points out to a video which is
+supposed to be hosted in &lt;em&gt;&lt;a href=&#34;http://dddcqrs.com&#34; target=&#34;_blank&#34;&gt;http://dddcqrs.com&lt;/a&gt;&lt;/em&gt; but this url no longer exists.
+After some searches on google I found out this video &lt;a href=&#34;http://www.viddler.com/v/dc528842&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/whCk1Q87_ZI?t=4h23m46s&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. The first website adds some marks to the video and there is a special mark related to &lt;strong&gt;versioning&lt;/strong&gt; at &lt;code&gt;263:00&lt;/code&gt; minutes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Experience API</title>
+      <link>https://nunes.io/notes/overview/experience-api/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/overview/experience-api/</guid>
+      <description>
+
+&lt;p&gt;Experience API is also known as &lt;a href=&#34;https://tincanapi.com/overview/tin-can-xapi&#34; target=&#34;_blank&#34;&gt;Tin Can API or xAPI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is an evolved version of SCORM (Sharable Content Object Reference Model).&lt;/p&gt;
+
+&lt;h2 id=&#34;format&#34;&gt;Format&lt;/h2&gt;
+
+&lt;p&gt;The format is quite simple: &lt;code&gt;Noun, verb, object&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;entities&#34;&gt;Entities&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Activity Provider (AP): responsible to create and track learning experiences;&lt;/li&gt;
+&lt;li&gt;Learning Record Store (LRS): responsible to store the tracking data;&lt;/li&gt;
+&lt;li&gt;Activity: it is the object in the &lt;code&gt;Noun, verb, object&lt;/code&gt; protocol. E.g. a book, an e-learning course, a meeting, some real object like a chair in a classroom, etc;&lt;/li&gt;
+&lt;li&gt;Actor: individual or group that does the action;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;Verb&lt;/code&gt; must be in the past tense, although their display properties may be flexible in tense.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generative Testing</title>
+      <link>https://nunes.io/notes/overview/generative-testing/</link>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/overview/generative-testing/</guid>
+      <description>
+
+&lt;h2 id=&#34;reference-material&#34;&gt;Reference material&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=N5HyVUPuU0E&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Simulation testing&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Foam</title>
+      <link>https://nunes.io/notes/library/foam/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/library/foam/</guid>
+      <description>&lt;p&gt;Foam is a hack to add server-side rendering to Om. I still have to test it before give my opinion but it seems to be nice.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Om (next) Tutorial Code</title>
+      <link>https://nunes.io/notes/guide/om-next-tutorial/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/om-next-tutorial/</guid>
+      <description>&lt;p&gt;Seems to be a good Om (next) tutorial. As soon as I read it I will update this doc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Webpack: How to dynamically set publich path</title>
+      <link>https://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</link>
+      <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nunes.io/notes/guide/webpack-how-to-dynamically-set-public-path/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;publicPath&lt;/code&gt; of the output entry in webpack config file can be left blank and be dynamically set in the entry point file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;__webpack_public_path__ = myRuntimePublicPath
+
+// ... rest of your application entry
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
