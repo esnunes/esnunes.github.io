@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://nunes.io/</loc>
-    <lastmod>2016-02-22T18:14:00-03:00</lastmod>
+    <lastmod>2016-02-27T15:34:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nunes.io/notes/guide/vim-how-to-setup-eslint/</loc>
+    <lastmod>2016-02-27T15:34:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Eduardo Nunes">
+
+<base href="http://nunes.io/">
+<title>
+
+
+     Vim: How to setup local eslint? 
+
+</title>
+
+<link rel="canonical" href="http://nunes.io/notes/guide/vim-how-to-setup-eslint/">
+
+
+<script type="text/javascript">
+    var baseURL = 'http:\/\/nunes.io\/';
+    var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+        window.location.protocol = 'https:';
+    }
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="http://nunes.io/css/reset.css">
+<link rel="stylesheet" href="http://nunes.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/github.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            <a href="http://nunes.io/"><div class="name">Eduardo Nunes</div></a>
+            <nav>
+                <ul>
+                  <a href="http://nunes.io/notes/"><li>Notes</li></a>
+                  <a href="http://nunes.io/blog/"><li>Blog</li></a>
+                  
+                  <a href="http://nunes.io/about/"><li>About</li></a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/esnunes" target="_blank">
+                <i class="icon ion-social-github"></i>
+            </a>
+        
+
+        
+            <a href="//www.npmjs.com/~esnunes" target="_blank">
+                <i class="icon ion-social-nodejs"></i>
+            </a>
+        
+
+        
+            <a href="//twitter.com/esnunes" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+        
+
+        
+            <a href="//linkedin.com/in/esnunes" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+            </a>
+        
+
+        
+
+        
+
+        
+            <a href="mailto:esnunes@gmail.com">
+                <i class="icon ion-ios-email larger"></i>
+            </a>
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+          <div class="page-heading">
+
+    Vim: How to setup local eslint?
+
+</div>
+
+          
+          <div class="markdown">
+              <p>I&rsquo;ve been using source code linting for two years. It is a simple step in the
+development workflow that together with other best-practices improves
+readability and maintainability of the source code.</p>
+
+<p>I&rsquo;m an Atom editor user but I&rsquo;m trying new editors: Vim and Emacs. In order to
+reach the same productivity I have using Atom, without losing quality, I had to
+setup <a href="https://github.com/scrooloose/syntastic" target="_blank">Syntastic</a> Vim plugin and
+configure <a href="http://eslint.org/" target="_blank">ESLint</a> on it.</p>
+
+<p>At first sight (reading Syntastic github README.md file) it seems to be very
+easy to do it, however all Node.js projects I work on have ESLint specific rules
+and versions.</p>
+
+<p>Checkout below the snippet that must be added to your <code>~/.vimrc</code> file to setup
+local ESLint support to your projects.</p>
+
+<pre><code class="language-vim">&quot; Syntastic local ESLint support
+
+let g:syntastic_javascript_checkers = []
+
+function SetEslintPath()
+	let l:filepath = expand('%:p:h')
+	let b:syntastic_checkers = syntastic#util#findFileInParent('.eslintrc', expand('%:p:h', 1)) !=# '' ? ['eslint'] : []
+	let b:syntastic_eslint_exec = split(system(&quot;cd &quot; . l:filepath . &quot;; npm bin&quot;), &quot;\n&quot;)[0] . &quot;/eslint&quot;
+endfunction
+
+autocmd FileType javascript call SetEslintPath()
+</code></pre>
+
+<p>I&rsquo;m new to Vim / Vim Script, suggestions are welcome!</p>
+
+          </div>
+          <br>
+          <div class="disqus">
+              <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'nunesio';
+    var disqus_identifier = 'http:\/\/nunes.io\/notes\/guide\/vim-how-to-setup-eslint\/';
+    var disqus_title = 'Vim: How to setup local eslint?';
+    var disqus_url = 'http:\/\/nunes.io\/notes\/guide\/vim-how-to-setup-eslint\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          </div>
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-62275794-2");
+    pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+
+
+</body>
+</html>
+

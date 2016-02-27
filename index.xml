@@ -6,8 +6,47 @@
     <description>Recent content on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Feb 2016 18:14:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 27 Feb 2016 15:34:00 +0000</lastBuildDate>
     <atom:link href="http://nunes.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vim: How to setup local eslint?</title>
+      <link>http://nunes.io/notes/guide/vim-how-to-setup-eslint/</link>
+      <pubDate>Sat, 27 Feb 2016 15:34:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/guide/vim-how-to-setup-eslint/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been using source code linting for two years. It is a simple step in the
+development workflow that together with other best-practices improves
+readability and maintainability of the source code.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m an Atom editor user but I&amp;rsquo;m trying new editors: Vim and Emacs. In order to
+reach the same productivity I have using Atom, without losing quality, I had to
+setup &lt;a href=&#34;https://github.com/scrooloose/syntastic&#34; target=&#34;_blank&#34;&gt;Syntastic&lt;/a&gt; Vim plugin and
+configure &lt;a href=&#34;http://eslint.org/&#34; target=&#34;_blank&#34;&gt;ESLint&lt;/a&gt; on it.&lt;/p&gt;
+
+&lt;p&gt;At first sight (reading Syntastic github README.md file) it seems to be very
+easy to do it, however all Node.js projects I work on have ESLint specific rules
+and versions.&lt;/p&gt;
+
+&lt;p&gt;Checkout below the snippet that must be added to your &lt;code&gt;~/.vimrc&lt;/code&gt; file to setup
+local ESLint support to your projects.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-vim&#34;&gt;&amp;quot; Syntastic local ESLint support
+
+let g:syntastic_javascript_checkers = []
+
+function SetEslintPath()
+	let l:filepath = expand(&#39;%:p:h&#39;)
+	let b:syntastic_checkers = syntastic#util#findFileInParent(&#39;.eslintrc&#39;, expand(&#39;%:p:h&#39;, 1)) !=# &#39;&#39; ? [&#39;eslint&#39;] : []
+	let b:syntastic_eslint_exec = split(system(&amp;quot;cd &amp;quot; . l:filepath . &amp;quot;; npm bin&amp;quot;), &amp;quot;\n&amp;quot;)[0] . &amp;quot;/eslint&amp;quot;
+endfunction
+
+autocmd FileType javascript call SetEslintPath()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&amp;rsquo;m new to Vim / Vim Script, suggestions are welcome!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Is Go an Object Oriented Language?</title>
@@ -279,16 +318,6 @@ After some searches on google I found out this video &lt;a href=&#34;http://www.
       
       <guid>http://nunes.io/notes/library/foam/</guid>
       <description>&lt;p&gt;Foam is a hack to add server-side rendering to Om. I still have to test it before give my opinion but it seems to be nice.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Om (next) Tutorial Code</title>
-      <link>http://nunes.io/notes/guide/om-next-tutorial/</link>
-      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/guide/om-next-tutorial/</guid>
-      <description>&lt;p&gt;Seems to be a good Om (next) tutorial. As soon as I read it I will update this doc.&lt;/p&gt;
 </description>
     </item>
     
