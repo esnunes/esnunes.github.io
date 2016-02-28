@@ -6,8 +6,61 @@
     <description>Recent content on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 27 Feb 2016 15:34:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2016 15:10:00 +0000</lastBuildDate>
     <atom:link href="http://nunes.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning Notebook</title>
+      <link>http://nunes.io/blog/learning-notebook/</link>
+      <pubDate>Sun, 28 Feb 2016 15:10:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/blog/learning-notebook/</guid>
+      <description>
+
+&lt;p&gt;A repository of notes taken during the process of learn something.&lt;/p&gt;
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;During our daily learning process we consume a lot of information from articles,
+blog posts, books, tweets, videos, chat with working colleagues, etc.
+Unfortunately must part of us can&amp;rsquo;t hold all information we consume for the rest
+of our lives, some times it doesn&amp;rsquo;t even last a couple of weeks in our memory.&lt;/p&gt;
+
+&lt;p&gt;It is a good exercise to take notes of things your learn for future reference.
+How many times have you had to dig Google trying to find some article that you
+read in the past and forgot to take a note of it, specially when you find a very
+interesting article but it is not directly related to the main topic that you
+were searching for?&lt;/p&gt;
+
+&lt;p&gt;Some of the benefits of the note taking practice are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;to help you remind of topics that are not fresh in your memory anymore;&lt;/li&gt;
+&lt;li&gt;as reference to write articles, books, tweets, etc;&lt;/li&gt;
+&lt;li&gt;as reference to prepare material in order to speak in conferences;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Even if you haven&amp;rsquo;t read the whole article, book, etc, it is still valid to take
+notes of it, to write a few words / an overview, so in the future you can easily
+back to it.&lt;/p&gt;
+
+&lt;h2 id=&#34;public-learning-notebook&#34;&gt;Public Learning Notebook&lt;/h2&gt;
+
+&lt;p&gt;You might be a bit concerned about sharing your notes but think about the
+benefits of it. By making them public everybody can learn with it, people can
+subscribe to your RSS feed, add comments and suggestion in order to enhance the
+quality of the information.&lt;/p&gt;
+
+&lt;p&gt;Although all your notes will be public and they may help other people, don&amp;rsquo;t
+mind about:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the structure of them;&lt;/li&gt;
+&lt;li&gt;if they are well written and clear;&lt;/li&gt;
+&lt;li&gt;if other people will understand them;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Vim: How to setup local eslint?</title>
@@ -308,16 +361,6 @@ After some searches on google I found out this video &lt;a href=&#34;http://www.
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=N5HyVUPuU0E&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Simulation testing&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Foam</title>
-      <link>http://nunes.io/notes/library/foam/</link>
-      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/library/foam/</guid>
-      <description>&lt;p&gt;Foam is a hack to add server-side rendering to Om. I still have to test it before give my opinion but it seems to be nice.&lt;/p&gt;
 </description>
     </item>
     
