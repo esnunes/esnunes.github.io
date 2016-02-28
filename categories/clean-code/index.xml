@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clean Code on Eduardo Nunes</title>
+    <link>http://nunes.io/categories/clean-code/</link>
+    <description>Recent content in Clean Code on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 28 Feb 2016 19:06:00 +0000</lastBuildDate>
+    <atom:link href="http://nunes.io/categories/clean-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Clean Code: Meaningful Names</title>
+      <link>http://nunes.io/notes/book/clean-code-meaningful-names/</link>
+      <pubDate>Sun, 28 Feb 2016 19:06:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/book/clean-code-meaningful-names/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;If you have to read the source code to understand the meaning of a variable
+name it is because that&amp;rsquo;s a bad name&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here is a list of best practices on namming variables, classes, functions /
+methods, interfaces and enums:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Communicate your intent;&lt;/li&gt;
+&lt;li&gt;Avoid disinformation;&lt;/li&gt;
+&lt;li&gt;Pronounceable names;&lt;/li&gt;
+&lt;li&gt;Avoid encodings (e.g. Hungarian notation);&lt;/li&gt;
+&lt;li&gt;Classes, variables names should be nouns;&lt;/li&gt;
+&lt;li&gt;Methods / functions should have verb names;&lt;/li&gt;
+&lt;li&gt;Boolean methods should have names as predicates (e.g. isAuthenticated);&lt;/li&gt;
+&lt;li&gt;Variables should have short names in small scopes and long names in large
+scopes;&lt;/li&gt;
+&lt;li&gt;Functions should have long names in small scopes and short names in large
+scopes;&lt;/li&gt;
+&lt;li&gt;Classes should have long names in private scopes and short names in public
+scopes;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Any fool can write code that a computer can understand. Good programmers write
+code that humans can understand. (Martin Fowler, 2008)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

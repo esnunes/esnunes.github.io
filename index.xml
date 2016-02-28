@@ -6,8 +6,45 @@
     <description>Recent content on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Feb 2016 15:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2016 19:06:00 +0000</lastBuildDate>
     <atom:link href="http://nunes.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Clean Code: Meaningful Names</title>
+      <link>http://nunes.io/notes/book/clean-code-meaningful-names/</link>
+      <pubDate>Sun, 28 Feb 2016 19:06:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/book/clean-code-meaningful-names/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;If you have to read the source code to understand the meaning of a variable
+name it is because that&amp;rsquo;s a bad name&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here is a list of best practices on namming variables, classes, functions /
+methods, interfaces and enums:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Communicate your intent;&lt;/li&gt;
+&lt;li&gt;Avoid disinformation;&lt;/li&gt;
+&lt;li&gt;Pronounceable names;&lt;/li&gt;
+&lt;li&gt;Avoid encodings (e.g. Hungarian notation);&lt;/li&gt;
+&lt;li&gt;Classes, variables names should be nouns;&lt;/li&gt;
+&lt;li&gt;Methods / functions should have verb names;&lt;/li&gt;
+&lt;li&gt;Boolean methods should have names as predicates (e.g. isAuthenticated);&lt;/li&gt;
+&lt;li&gt;Variables should have short names in small scopes and long names in large
+scopes;&lt;/li&gt;
+&lt;li&gt;Functions should have long names in small scopes and short names in large
+scopes;&lt;/li&gt;
+&lt;li&gt;Classes should have long names in private scopes and short names in public
+scopes;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Any fool can write code that a computer can understand. Good programmers write
+code that humans can understand. (Martin Fowler, 2008)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Learning Notebook</title>
@@ -345,22 +382,6 @@ After some searches on google I found out this video &lt;a href=&#34;http://www.
 &lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;Verb&lt;/code&gt; must be in the past tense, although their display properties may be flexible in tense.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Generative Testing</title>
-      <link>http://nunes.io/notes/overview/generative-testing/</link>
-      <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/overview/generative-testing/</guid>
-      <description>
-
-&lt;h2 id=&#34;reference-material&#34;&gt;Reference material&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=N5HyVUPuU0E&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Simulation testing&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
