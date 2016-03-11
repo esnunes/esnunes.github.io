@@ -13,11 +13,11 @@
 <title>
 
 
-     Vim: How to setup local eslint (or any other linter)? 
+     Microservices and Consumer-Driven Contracts Tests 
 
 </title>
 
-<link rel="canonical" href="http://nunes.io/notes/guide/vim-how-to-setup-eslint/">
+<link rel="canonical" href="http://nunes.io/notes/article/microservices-and-consumer-driven-contracts-tests/">
 
 
 <script type="text/javascript">
@@ -115,62 +115,53 @@
         <div class="content">
           <div class="page-heading">
 
-    Vim: How to setup local eslint (or any other linter)?
+    Microservices and Consumer-Driven Contracts Tests
 
 </div>
 
           
           <div class="markdown">
-              <p><strong>Update (2016-03-11): this note contains instructions to setup any nodejs
-linter</strong></p>
+              <p>Due to its distributed nature, integration / end-to-end tests in microservices
+are hard to do, either by the number of microservices required to cover the test
+case or by the time it takes to run them. A good alternative to solve the
+problem are the consumer-driven contracts tests.</p>
 
-<p>I&rsquo;ve been using source code linting for two years. It is a simple step in the
-development workflow that together with other best-practices improves
-readability and maintainability of the source code.</p>
+<p>Consumer-Driven Contracts tests focus on the contract established between two
+services but from the point of view of the consumer. Consider the following
+scenario:</p>
 
-<p>The integration of most part of the linters with Atom editor is usually a very
-simple task however to integrate them with Vim or Emacs a small effort is
-needed. To integrate ESLint with Vim you can use
-<a href="https://github.com/scrooloose/syntastic" target="_blank">Syntastic</a> Vim plugin and configure
-<a href="http://eslint.org/" target="_blank">ESLint</a> on it.</p>
+<p>The <strong>Profile Service</strong> is responsible to store and provide information about
+users of the application like their contact information, addresses, metadata,
+avatar, etc and the <strong>E-Mail Service</strong> is responsible to send e-mails based on a
+<code>profile id</code>. In order to send the e-mail the <strong>E-Mail Service</strong> needs to load
+the current data of the profile but not all data, the only information it needs
+is the profile name and e-mail address.</p>
 
-<p>At first sight (reading Syntastic github README.md file) it seems to be very
-easy to do it and it is when you use a global instance of ESLint, however all
-Node.js projects I work have ESLint specific rules and versions.</p>
+<p>In the scenario above the E-Mail Service is a consumer of the Profile Service.
+The E-Mail Service expects that the Profile Service is going to send the name
+and the e-mail address of the profile in a specific format, there is a contract
+established between them. The Profile Service has its unit and service tests to
+ensure all profile data is returned based on its internal business logic,
+whenever the Profile Service changes the returned data its unit and service
+tests will break, e.g. the birth date was a required information and from now on
+it is not available anymore on the Profile Service. Even when a change in the
+Profile Service breaks its tests doesn&rsquo;t mean that the contracts between the
+Profile Service and others are broken, in the scenario above the birth date
+wasn&rsquo;t an expected value by the E-Mail Service.</p>
 
-<p>Checkout below the snippet that must be added to your <code>~/.vimrc</code> file to setup
-local ESLint (or any other linter) support to your projects.</p>
+<p>A Consumer-Driven Contract test would check if the Profile Service returns only
+the information that the E-Mail Service needs. Back to the example above, if the
+Profile Service from now on doesn&rsquo;t return the e-mail address then the
+Consumer-Driven Contract test will fail. The failure of the Consumer-Driven
+Contract test doesn&rsquo;t mean that the Profile Service implementation is not
+correct, it means there is a breaking change between Profile Service and E-Mail
+Service.  Based on the failure of the test the E-Mail Service team must be
+notified in order to adapt E-Mail Service to the new contract.</p>
 
-<pre><code class="language-vim">&quot; Syntastic local linter support
-
-let g:syntastic_javascript_checkers = []
-
-function CheckJavaScriptLinter(filepath, linter)
-	if exists('b:syntastic_checkers')
-		return
-	endif
-	if filereadable(a:filepath)
-		let b:syntastic_checkers = [a:linter]
-		let {'b:syntastic_' . a:linter . '_exec'} = a:filepath
-	endif
-endfunction
-
-function SetupJavaScriptLinter()
-	let l:current_folder = expand('%:p:h')
-	let l:bin_folder = fnamemodify(syntastic#util#findFileInParent('package.json', l:current_folder), ':h')
-	let l:bin_folder = l:bin_folder . '/node_modules/.bin/'
-	call CheckJavaScriptLinter(l:bin_folder . 'standard', 'standard')
-	call CheckJavaScriptLinter(l:bin_folder . 'eslint', 'eslint')
-endfunction
-
-autocmd FileType javascript call SetupJavaScriptLinter()
-</code></pre>
-
-<p>The code above basically searches for binary files in the <code>node_modules/.bin</code>
-folder of the current nodejs project. The snippet above covers <code>eslint</code> and
-<code>standard</code> linters.</p>
-
-<p>I&rsquo;m new to Vim / Vim Script, suggestions are welcome!</p>
+<p>The Consumer-Driven Contract tests should be part of the continuos integration /
+deployment pipeline of the producer service. Ideally the tests must be developed
+by the team that owns the producer with the help of the team that own the
+consumer.</p>
 
           </div>
           <br>
@@ -178,9 +169,9 @@ folder of the current nodejs project. The snippet above covers <code>eslint</cod
               <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'nunesio';
-    var disqus_identifier = 'http:\/\/nunes.io\/notes\/guide\/vim-how-to-setup-eslint\/';
-    var disqus_title = 'Vim: How to setup local eslint (or any other linter)?';
-    var disqus_url = 'http:\/\/nunes.io\/notes\/guide\/vim-how-to-setup-eslint\/';
+    var disqus_identifier = 'http:\/\/nunes.io\/notes\/article\/microservices-and-consumer-driven-contracts-tests\/';
+    var disqus_title = 'Microservices and Consumer-Driven Contracts Tests';
+    var disqus_url = 'http:\/\/nunes.io\/notes\/article\/microservices-and-consumer-driven-contracts-tests\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
