@@ -6,8 +6,20 @@
     <description>Recent content in Notes on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 11 Mar 2016 14:18:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Mar 2016 17:09:00 -0300</lastBuildDate>
     <atom:link href="http://nunes.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to deploy software</title>
+      <link>http://nunes.io/notes/article/how-to-deploy-software/</link>
+      <pubDate>Fri, 11 Mar 2016 17:09:00 -0300</pubDate>
+      
+      <guid>http://nunes.io/notes/article/how-to-deploy-software/</guid>
+      <description>&lt;p&gt;This is a very nice and large article that tackles all aspects of deploying
+software. He talks about the experience lived in big companies and emphasizes
+how important it is to small and medium sized companies too.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Vim: How to setup local eslint (or any other linter)?</title>
@@ -71,7 +83,7 @@ folder of the current nodejs project. The snippet above covers &lt;code&gt;eslin
     <item>
       <title>Microservices and Consumer-Driven Contracts Tests</title>
       <link>http://nunes.io/notes/article/microservices-and-consumer-driven-contracts-tests/</link>
-      <pubDate>Mon, 07 Mar 2016 20:48:00 +0000</pubDate>
+      <pubDate>Mon, 07 Mar 2016 20:48:00 -0300</pubDate>
       
       <guid>http://nunes.io/notes/article/microservices-and-consumer-driven-contracts-tests/</guid>
       <description>&lt;p&gt;Due to its distributed nature, integration / end-to-end tests in microservices
@@ -368,37 +380,6 @@ changes in the event structure. During the &lt;em&gt;open for questions&lt;/em&g
 presentation Greg is asked about this and he points out to a video which is
 supposed to be hosted in &lt;em&gt;&lt;a href=&#34;http://dddcqrs.com&#34; target=&#34;_blank&#34;&gt;http://dddcqrs.com&lt;/a&gt;&lt;/em&gt; but this url no longer exists.
 After some searches on google I found out this video &lt;a href=&#34;http://www.viddler.com/v/dc528842&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/whCk1Q87_ZI?t=4h23m46s&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. The first website adds some marks to the video and there is a special mark related to &lt;strong&gt;versioning&lt;/strong&gt; at &lt;code&gt;263:00&lt;/code&gt; minutes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Experience API</title>
-      <link>http://nunes.io/notes/overview/experience-api/</link>
-      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/overview/experience-api/</guid>
-      <description>
-
-&lt;p&gt;Experience API is also known as &lt;a href=&#34;https://tincanapi.com/overview/tin-can-xapi&#34; target=&#34;_blank&#34;&gt;Tin Can API or xAPI&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is an evolved version of SCORM (Sharable Content Object Reference Model).&lt;/p&gt;
-
-&lt;h2 id=&#34;format&#34;&gt;Format&lt;/h2&gt;
-
-&lt;p&gt;The format is quite simple: &lt;code&gt;Noun, verb, object&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;entities&#34;&gt;Entities&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Activity Provider (AP): responsible to create and track learning experiences;&lt;/li&gt;
-&lt;li&gt;Learning Record Store (LRS): responsible to store the tracking data;&lt;/li&gt;
-&lt;li&gt;Activity: it is the object in the &lt;code&gt;Noun, verb, object&lt;/code&gt; protocol. E.g. a book, an e-learning course, a meeting, some real object like a chair in a classroom, etc;&lt;/li&gt;
-&lt;li&gt;Actor: individual or group that does the action;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
-
-&lt;p&gt;&lt;code&gt;Verb&lt;/code&gt; must be in the past tense, although their display properties may be flexible in tense.&lt;/p&gt;
 </description>
     </item>
     

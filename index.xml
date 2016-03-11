@@ -6,8 +6,20 @@
     <description>Recent content on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 11 Mar 2016 14:18:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Mar 2016 17:09:00 -0300</lastBuildDate>
     <atom:link href="http://nunes.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to deploy software</title>
+      <link>http://nunes.io/notes/article/how-to-deploy-software/</link>
+      <pubDate>Fri, 11 Mar 2016 17:09:00 -0300</pubDate>
+      
+      <guid>http://nunes.io/notes/article/how-to-deploy-software/</guid>
+      <description>&lt;p&gt;This is a very nice and large article that tackles all aspects of deploying
+software. He talks about the experience lived in big companies and emphasizes
+how important it is to small and medium sized companies too.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Vim: How to setup local eslint (or any other linter)?</title>
@@ -71,7 +83,7 @@ folder of the current nodejs project. The snippet above covers &lt;code&gt;eslin
     <item>
       <title>Microservices and Consumer-Driven Contracts Tests</title>
       <link>http://nunes.io/notes/article/microservices-and-consumer-driven-contracts-tests/</link>
-      <pubDate>Mon, 07 Mar 2016 20:48:00 +0000</pubDate>
+      <pubDate>Mon, 07 Mar 2016 20:48:00 -0300</pubDate>
       
       <guid>http://nunes.io/notes/article/microservices-and-consumer-driven-contracts-tests/</guid>
       <description>&lt;p&gt;Due to its distributed nature, integration / end-to-end tests in microservices
@@ -398,29 +410,6 @@ people will accidentally, or not, start to being killed by software.&lt;/p&gt;
 &lt;p&gt;He also compares our industry to others like lawyers, doctors, etc, they all
 have their ethic code, they can be banished in case they do intentionally
 something wrong, even if they got asked to do it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greg Young - CQRS and Event Sourcing - Code on the Beach 2014</title>
-      <link>http://nunes.io/notes/talk/cqrs-and-event-sourcing/</link>
-      <pubDate>Fri, 29 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/talk/cqrs-and-event-sourcing/</guid>
-      <description>&lt;p&gt;Very nice talk about event sourcing and how it is related to CQRS pattern.&lt;/p&gt;
-
-&lt;p&gt;The whole idea of storing events for future playback is awesome. You can&amp;rsquo;t get
-away of all pain points mentioned by Greg when it comes to move from Data
-model to Event sourcing because you will be ending up querying your data
-model (projections) instead of your event list, however in case something
-goes wrong and you loose data, or even if you want to infer some data based
-on events of the past you still have your immutable event sourcing storage.&lt;/p&gt;
-
-&lt;p&gt;One of the key issues of event sourcing, in my opinion, is how to deal with
-changes in the event structure. During the &lt;em&gt;open for questions&lt;/em&gt; part of the
-presentation Greg is asked about this and he points out to a video which is
-supposed to be hosted in &lt;em&gt;&lt;a href=&#34;http://dddcqrs.com&#34; target=&#34;_blank&#34;&gt;http://dddcqrs.com&lt;/a&gt;&lt;/em&gt; but this url no longer exists.
-After some searches on google I found out this video &lt;a href=&#34;http://www.viddler.com/v/dc528842&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/whCk1Q87_ZI?t=4h23m46s&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. The first website adds some marks to the video and there is a special mark related to &lt;strong&gt;versioning&lt;/strong&gt; at &lt;code&gt;263:00&lt;/code&gt; minutes.&lt;/p&gt;
 </description>
     </item>
     

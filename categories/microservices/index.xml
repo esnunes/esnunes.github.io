@@ -6,13 +6,13 @@
     <description>Recent content in Microservices on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 07 Mar 2016 20:48:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Mar 2016 20:48:00 -0300</lastBuildDate>
     <atom:link href="http://nunes.io/categories/microservices/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Microservices and Consumer-Driven Contracts Tests</title>
       <link>http://nunes.io/notes/article/microservices-and-consumer-driven-contracts-tests/</link>
-      <pubDate>Mon, 07 Mar 2016 20:48:00 +0000</pubDate>
+      <pubDate>Mon, 07 Mar 2016 20:48:00 -0300</pubDate>
       
       <guid>http://nunes.io/notes/article/microservices-and-consumer-driven-contracts-tests/</guid>
       <description>&lt;p&gt;Due to its distributed nature, integration / end-to-end tests in microservices

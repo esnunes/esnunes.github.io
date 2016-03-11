@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blue-Green Deployment on Eduardo Nunes</title>
+    <link>http://nunes.io/categories/blue-green-deployment/</link>
+    <description>Recent content in Blue-Green Deployment on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 11 Mar 2016 17:09:00 -0300</lastBuildDate>
+    <atom:link href="http://nunes.io/categories/blue-green-deployment/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to deploy software</title>
+      <link>http://nunes.io/notes/article/how-to-deploy-software/</link>
+      <pubDate>Fri, 11 Mar 2016 17:09:00 -0300</pubDate>
+      
+      <guid>http://nunes.io/notes/article/how-to-deploy-software/</guid>
+      <description>&lt;p&gt;This is a very nice and large article that tackles all aspects of deploying
+software. He talks about the experience lived in big companies and emphasizes
+how important it is to small and medium sized companies too.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
