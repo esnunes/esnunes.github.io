@@ -6,8 +6,61 @@
     <description>Recent content on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 11 Mar 2016 17:09:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 10 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://nunes.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Draw! NodeJS and Go, Count to 1 Billion With a B!</title>
+      <link>http://nunes.io/notes/article/nodejs-and-go-count-to-1-billion/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/article/nodejs-and-go-count-to-1-billion/</guid>
+      <description>&lt;p&gt;Very nice article comparing performance, latency, memory usage and size between
+simple web services written in nodejs and golang.&lt;/p&gt;
+
+&lt;p&gt;Although the article is titled as a draw it points out by metrics that golang is
+a winner.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The things that drove my attention are the very low memory footprint of golang
+and the minimum size of a Docker image running the service. Considering the
+amount of resources required to develop and run microservices, at least in
+small / medium companies with limited resources, golang seems to be the best
+option.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Case for Bringing Swift to the Server</title>
+      <link>http://nunes.io/notes/talk/the-case-for-bringing-swift-to-the-server/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/talk/the-case-for-bringing-swift-to-the-server/</guid>
+      <description>&lt;p&gt;The talk presented by Patrick Bohrer and Chris Bailey shows lots of things
+related to Swift Language, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The current status of the server side implementation of Swift;&lt;/li&gt;
+&lt;li&gt;The roadmap to bring Swift to server environment;&lt;/li&gt;
+&lt;li&gt;The effort IBM is investing on Swift;&lt;/li&gt;
+&lt;li&gt;Some of the tools created by IBM in order to promote / enable Swift, specially
+on server side;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It demonstrates that Swift on server side has a strong, professional and
+reliable evolution plan.&lt;/p&gt;
+
+&lt;p&gt;The talk doesn&amp;rsquo;t mention anything about performance, except some improvements
+made by IBM in the core of Swift itself, however it doesn&amp;rsquo;t how any benchmark or
+even more information about the internals of Swift port to the server.&lt;/p&gt;
+
+&lt;p&gt;One of the things that I&amp;rsquo;m not sure yet related to Swift is its memory footprint
+compared to other programming languages like &lt;strong&gt;golang&lt;/strong&gt; and &lt;strong&gt;nodejs&lt;/strong&gt;,
+specially because this is one of the key aspects when dealing with
+microservices.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to deploy software</title>
@@ -370,46 +423,6 @@ a special network flag that makes &lt;code&gt;docker-proxy&lt;/code&gt; obsolete
 &lt;li&gt;&lt;kbd&gt;x&lt;/kbd&gt; - Execute marked changes (e.g. delete marked files)&lt;/li&gt;
 &lt;li&gt;&lt;kbd&gt;g&lt;/kbd&gt; - Refresh&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Enabling Microservices with Domain Driven Design and Ports &amp; Adapters</title>
-      <link>http://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</link>
-      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</guid>
-      <description>&lt;p&gt;This is a very interesting video that demonstrates the power of using DDD
-together with Ports &amp;amp; Adapters pattern. I totally agree with the concept.
-By using Ports &amp;amp; Adapters you can easily understand the business logic without
-having to look at boilerplate code (the ports and adapters).&lt;/p&gt;
-
-&lt;p&gt;The speaker recommends the book &amp;ldquo;Building Microservices - Desining fine-grained
-systems&amp;rdquo;. The speaker mentions that the book cover lots of ideas of DDD and
-ports &amp;amp; adapters, that it is worth reading it in case you agree with the
-things he speaks of.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Last Programming Language (Future of Programming Language)</title>
-      <link>http://nunes.io/notes/talk/the-last-programming-language/</link>
-      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/talk/the-last-programming-language/</guid>
-      <description>&lt;p&gt;Just amazing, Robert Martin (Uncle Bob) points out how the history of computer
-science affects the way we develop code nowadays and the reason why lots of
-amazing things were invented in the beginning and today we have the lack of it.&lt;/p&gt;
-
-&lt;p&gt;Robert Martin also points out that we may end up being regulated in case
-we don&amp;rsquo;t take control of the future of computer science, specially regarding
-doing things right. He mentions that because at the moment people are
-extremely affected by us, they are constantly interacting with software. Soon
-people will accidentally, or not, start to being killed by software.&lt;/p&gt;
-
-&lt;p&gt;He also compares our industry to others like lawyers, doctors, etc, they all
-have their ethic code, they can be banished in case they do intentionally
-something wrong, even if they got asked to do it.&lt;/p&gt;
 </description>
     </item>
     

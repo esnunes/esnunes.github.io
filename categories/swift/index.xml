@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on Eduardo Nunes</title>
+    <link>http://nunes.io/categories/swift/</link>
+    <description>Recent content in Swift on Eduardo Nunes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 10 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://nunes.io/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Case for Bringing Swift to the Server</title>
+      <link>http://nunes.io/notes/talk/the-case-for-bringing-swift-to-the-server/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/talk/the-case-for-bringing-swift-to-the-server/</guid>
+      <description>&lt;p&gt;The talk presented by Patrick Bohrer and Chris Bailey shows lots of things
+related to Swift Language, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The current status of the server side implementation of Swift;&lt;/li&gt;
+&lt;li&gt;The roadmap to bring Swift to server environment;&lt;/li&gt;
+&lt;li&gt;The effort IBM is investing on Swift;&lt;/li&gt;
+&lt;li&gt;Some of the tools created by IBM in order to promote / enable Swift, specially
+on server side;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It demonstrates that Swift on server side has a strong, professional and
+reliable evolution plan.&lt;/p&gt;
+
+&lt;p&gt;The talk doesn&amp;rsquo;t mention anything about performance, except some improvements
+made by IBM in the core of Swift itself, however it doesn&amp;rsquo;t how any benchmark or
+even more information about the internals of Swift port to the server.&lt;/p&gt;
+
+&lt;p&gt;One of the things that I&amp;rsquo;m not sure yet related to Swift is its memory footprint
+compared to other programming languages like &lt;strong&gt;golang&lt;/strong&gt; and &lt;strong&gt;nodejs&lt;/strong&gt;,
+specially because this is one of the key aspects when dealing with
+microservices.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

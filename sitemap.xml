@@ -3,8 +3,18 @@
   
   <url>
     <loc>http://nunes.io/</loc>
-    <lastmod>2016-03-11T17:09:00-03:00</lastmod>
+    <lastmod>2016-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nunes.io/notes/article/nodejs-and-go-count-to-1-billion/</loc>
+    <lastmod>2016-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nunes.io/notes/talk/the-case-for-bringing-swift-to-the-server/</loc>
+    <lastmod>2016-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -6,8 +6,30 @@
     <description>Recent content in Golang on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 22 Feb 2016 18:14:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 10 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://nunes.io/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Draw! NodeJS and Go, Count to 1 Billion With a B!</title>
+      <link>http://nunes.io/notes/article/nodejs-and-go-count-to-1-billion/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/article/nodejs-and-go-count-to-1-billion/</guid>
+      <description>&lt;p&gt;Very nice article comparing performance, latency, memory usage and size between
+simple web services written in nodejs and golang.&lt;/p&gt;
+
+&lt;p&gt;Although the article is titled as a draw it points out by metrics that golang is
+a winner.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The things that drove my attention are the very low memory footprint of golang
+and the minimum size of a Docker image running the service. Considering the
+amount of resources required to develop and run microservices, at least in
+small / medium companies with limited resources, golang seems to be the best
+option.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Is Go an Object Oriented Language?</title>

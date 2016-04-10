@@ -6,8 +6,61 @@
     <description>Recent content in Notes on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 11 Mar 2016 17:09:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 10 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://nunes.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Draw! NodeJS and Go, Count to 1 Billion With a B!</title>
+      <link>http://nunes.io/notes/article/nodejs-and-go-count-to-1-billion/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/article/nodejs-and-go-count-to-1-billion/</guid>
+      <description>&lt;p&gt;Very nice article comparing performance, latency, memory usage and size between
+simple web services written in nodejs and golang.&lt;/p&gt;
+
+&lt;p&gt;Although the article is titled as a draw it points out by metrics that golang is
+a winner.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The things that drove my attention are the very low memory footprint of golang
+and the minimum size of a Docker image running the service. Considering the
+amount of resources required to develop and run microservices, at least in
+small / medium companies with limited resources, golang seems to be the best
+option.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Case for Bringing Swift to the Server</title>
+      <link>http://nunes.io/notes/talk/the-case-for-bringing-swift-to-the-server/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/talk/the-case-for-bringing-swift-to-the-server/</guid>
+      <description>&lt;p&gt;The talk presented by Patrick Bohrer and Chris Bailey shows lots of things
+related to Swift Language, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The current status of the server side implementation of Swift;&lt;/li&gt;
+&lt;li&gt;The roadmap to bring Swift to server environment;&lt;/li&gt;
+&lt;li&gt;The effort IBM is investing on Swift;&lt;/li&gt;
+&lt;li&gt;Some of the tools created by IBM in order to promote / enable Swift, specially
+on server side;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It demonstrates that Swift on server side has a strong, professional and
+reliable evolution plan.&lt;/p&gt;
+
+&lt;p&gt;The talk doesn&amp;rsquo;t mention anything about performance, except some improvements
+made by IBM in the core of Swift itself, however it doesn&amp;rsquo;t how any benchmark or
+even more information about the internals of Swift port to the server.&lt;/p&gt;
+
+&lt;p&gt;One of the things that I&amp;rsquo;m not sure yet related to Swift is its memory footprint
+compared to other programming languages like &lt;strong&gt;golang&lt;/strong&gt; and &lt;strong&gt;nodejs&lt;/strong&gt;,
+specially because this is one of the key aspects when dealing with
+microservices.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to deploy software</title>
@@ -335,51 +388,6 @@ having to look at boilerplate code (the ports and adapters).&lt;/p&gt;
 systems&amp;rdquo;. The speaker mentions that the book cover lots of ideas of DDD and
 ports &amp;amp; adapters, that it is worth reading it in case you agree with the
 things he speaks of.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Last Programming Language (Future of Programming Language)</title>
-      <link>http://nunes.io/notes/talk/the-last-programming-language/</link>
-      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/talk/the-last-programming-language/</guid>
-      <description>&lt;p&gt;Just amazing, Robert Martin (Uncle Bob) points out how the history of computer
-science affects the way we develop code nowadays and the reason why lots of
-amazing things were invented in the beginning and today we have the lack of it.&lt;/p&gt;
-
-&lt;p&gt;Robert Martin also points out that we may end up being regulated in case
-we don&amp;rsquo;t take control of the future of computer science, specially regarding
-doing things right. He mentions that because at the moment people are
-extremely affected by us, they are constantly interacting with software. Soon
-people will accidentally, or not, start to being killed by software.&lt;/p&gt;
-
-&lt;p&gt;He also compares our industry to others like lawyers, doctors, etc, they all
-have their ethic code, they can be banished in case they do intentionally
-something wrong, even if they got asked to do it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Greg Young - CQRS and Event Sourcing - Code on the Beach 2014</title>
-      <link>http://nunes.io/notes/talk/cqrs-and-event-sourcing/</link>
-      <pubDate>Fri, 29 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/talk/cqrs-and-event-sourcing/</guid>
-      <description>&lt;p&gt;Very nice talk about event sourcing and how it is related to CQRS pattern.&lt;/p&gt;
-
-&lt;p&gt;The whole idea of storing events for future playback is awesome. You can&amp;rsquo;t get
-away of all pain points mentioned by Greg when it comes to move from Data
-model to Event sourcing because you will be ending up querying your data
-model (projections) instead of your event list, however in case something
-goes wrong and you loose data, or even if you want to infer some data based
-on events of the past you still have your immutable event sourcing storage.&lt;/p&gt;
-
-&lt;p&gt;One of the key issues of event sourcing, in my opinion, is how to deal with
-changes in the event structure. During the &lt;em&gt;open for questions&lt;/em&gt; part of the
-presentation Greg is asked about this and he points out to a video which is
-supposed to be hosted in &lt;em&gt;&lt;a href=&#34;http://dddcqrs.com&#34; target=&#34;_blank&#34;&gt;http://dddcqrs.com&lt;/a&gt;&lt;/em&gt; but this url no longer exists.
-After some searches on google I found out this video &lt;a href=&#34;http://www.viddler.com/v/dc528842&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/whCk1Q87_ZI?t=4h23m46s&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. The first website adds some marks to the video and there is a special mark related to &lt;strong&gt;versioning&lt;/strong&gt; at &lt;code&gt;263:00&lt;/code&gt; minutes.&lt;/p&gt;
 </description>
     </item>
     
