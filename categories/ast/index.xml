@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nodejs on Eduardo Nunes</title>
-    <link>http://nunes.io/categories/nodejs/</link>
-    <description>Recent content in Nodejs on Eduardo Nunes</description>
+    <title>AST on Eduardo Nunes</title>
+    <link>http://nunes.io/categories/ast/</link>
+    <description>Recent content in AST on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 19 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://nunes.io/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nunes.io/categories/ast/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>LeftPad and Go: can tooling help?</title>
@@ -27,28 +27,6 @@ first contact of the author with Golang AST (Abstract Syntax Tree), in the
 article he describes how pleasant was to deal with
 &lt;code&gt;go/{ast,parser,types,loader}&lt;/code&gt; packages. The whole tool was the work of a
 weekend.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Draw! NodeJS and Go, Count to 1 Billion With a B!</title>
-      <link>http://nunes.io/notes/article/nodejs-and-go-count-to-1-billion/</link>
-      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/article/nodejs-and-go-count-to-1-billion/</guid>
-      <description>&lt;p&gt;Very nice article comparing performance, latency, memory usage and size between
-simple web services written in nodejs and golang.&lt;/p&gt;
-
-&lt;p&gt;Although the article is titled as a draw it points out by metrics that golang is
-a winner.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The things that drove my attention are the very low memory footprint of golang
-and the minimum size of a Docker image running the service. Considering the
-amount of resources required to develop and run microservices, at least in
-small / medium companies with limited resources, golang seems to be the best
-option.&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     

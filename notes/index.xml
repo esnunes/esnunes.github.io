@@ -6,8 +6,29 @@
     <description>Recent content in Notes on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 10 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://nunes.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>LeftPad and Go: can tooling help?</title>
+      <link>http://nunes.io/notes/article/leftpad-and-go-can-tooling-help/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/article/leftpad-and-go-can-tooling-help/</guid>
+      <description>&lt;p&gt;Nice article about the mindset of Golang community regarding DRY.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A little copying is better than a little dependency.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The article also promotes a simple tool created by the author to identify small
+dependencies, &lt;a href=&#34;https://github.com/divan/depscheck&#34; target=&#34;_blank&#34;&gt;DepsCheck&lt;/a&gt;. The tool was the
+first contact of the author with Golang AST (Abstract Syntax Tree), in the
+article he describes how pleasant was to deal with
+&lt;code&gt;go/{ast,parser,types,loader}&lt;/code&gt; packages. The whole tool was the work of a
+weekend.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Draw! NodeJS and Go, Count to 1 Billion With a B!</title>
@@ -370,24 +391,6 @@ a special network flag that makes &lt;code&gt;docker-proxy&lt;/code&gt; obsolete
 &lt;li&gt;&lt;kbd&gt;x&lt;/kbd&gt; - Execute marked changes (e.g. delete marked files)&lt;/li&gt;
 &lt;li&gt;&lt;kbd&gt;g&lt;/kbd&gt; - Refresh&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Enabling Microservices with Domain Driven Design and Ports &amp; Adapters</title>
-      <link>http://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</link>
-      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://nunes.io/notes/talk/enabling-microservices-with-ddd-and-ports-adapters/</guid>
-      <description>&lt;p&gt;This is a very interesting video that demonstrates the power of using DDD
-together with Ports &amp;amp; Adapters pattern. I totally agree with the concept.
-By using Ports &amp;amp; Adapters you can easily understand the business logic without
-having to look at boilerplate code (the ports and adapters).&lt;/p&gt;
-
-&lt;p&gt;The speaker recommends the book &amp;ldquo;Building Microservices - Desining fine-grained
-systems&amp;rdquo;. The speaker mentions that the book cover lots of ideas of DDD and
-ports &amp;amp; adapters, that it is worth reading it in case you agree with the
-things he speaks of.&lt;/p&gt;
 </description>
     </item>
     

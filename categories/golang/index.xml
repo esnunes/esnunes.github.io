@@ -6,8 +6,29 @@
     <description>Recent content in Golang on Eduardo Nunes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 10 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://nunes.io/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>LeftPad and Go: can tooling help?</title>
+      <link>http://nunes.io/notes/article/leftpad-and-go-can-tooling-help/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nunes.io/notes/article/leftpad-and-go-can-tooling-help/</guid>
+      <description>&lt;p&gt;Nice article about the mindset of Golang community regarding DRY.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A little copying is better than a little dependency.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The article also promotes a simple tool created by the author to identify small
+dependencies, &lt;a href=&#34;https://github.com/divan/depscheck&#34; target=&#34;_blank&#34;&gt;DepsCheck&lt;/a&gt;. The tool was the
+first contact of the author with Golang AST (Abstract Syntax Tree), in the
+article he describes how pleasant was to deal with
+&lt;code&gt;go/{ast,parser,types,loader}&lt;/code&gt; packages. The whole tool was the work of a
+weekend.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Draw! NodeJS and Go, Count to 1 Billion With a B!</title>
